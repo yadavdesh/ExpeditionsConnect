@@ -24,8 +24,9 @@
 ==========================================================================*/
 
 /**Header**/
+/*
 .header {
-  position: absolute;
+  position: fixed;
   left: 0;
   right: 0;
   top: 0;
@@ -33,6 +34,7 @@
   z-index: 3;
   padding: 21px 0;
 }
+*/
 .header.fixedHeader {
   position: fixed;
   left: 0;
@@ -42,6 +44,7 @@
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
   z-index: 99;
 }
+
 .header.fixedHeader .logo {
   display: none;
 }
@@ -70,7 +73,7 @@
 }
 .mainNav ul li a {
   font-weight: 700;
-  color: #fff;
+  color: #7ab55c;
   display: block;
   text-transform: uppercase;
   line-height: 0.8;
@@ -81,7 +84,7 @@
   color: #7ab55c !important;
 }
 .mainNav ul li a:hover {
-  color: #7ab55c !important;
+  color: #0f0f0e !important;
 }
 .banner {
   position: relative;
@@ -195,21 +198,22 @@
 }
 .subsForm {
   position: relative;
-  width: 450px;
+  width: 370px;
   margin: auto;
   margin-top: 50px;
   text-align: center;
   position: relative;
   margin: 46px auto auto;
+  opacity: 0.7;
 }
 .subsForm input {
   background: #fff none repeat scroll 0 0;
   border: medium none;
-  border-radius: 30px;
+  border-radius: 12px;
   color: #333;
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
-  height: 49px;
+  height: 50px;
   padding: 10px 170px 10px 30px;
   width: 100%;
 }
@@ -217,22 +221,23 @@
   background: #7ab55c;
   color: #fff;
   font-size: 16px;
-  height: 50px;
+  height: 40px;
   right: 0;
   text-align: center;
   text-transform: capitalize;
   top: 0;
-  width: 155px;
+  width: 120px;
   position: absolute;
   right: -1px;
   top: -1px;
-  border-radius: 30px;
+  border-radius: 12px;
   -webkit-transition: all 500ms ease;
   -moz-transition: all 500ms ease;
   -ms-transition: all 500ms ease;
   -o-transition: all 500ms ease;
   transition: all 500ms ease;
   font-family: "Montserrat", sans-serif;
+  margin: 6px;
 }
 .subsForm button:hover {
   background: #1a28e6;
