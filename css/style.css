@@ -46,14 +46,14 @@
   display: none;
 }
 
-.logo img{
+.logo img {
   width: 100px;
   height: 100px;
 }
 .header.fixedHeader .logo2 {
   display: block !important;
 }
-.logo2 img{
+.logo2 img {
   width: 100px;
   height: 100px;
 }
@@ -136,7 +136,7 @@
 .singlePromotion i {
   border: 1px solid #e7e7e7;
   border-radius: 50%;
-  color: #000;
+  color: #7ab55c;
   display: block;
   font-size: 80px;
   height: 150px;
@@ -160,8 +160,8 @@
   font-weight: 700;
 }
 .singlePromotion:hover i {
-  border-color: #7ab55c;
-  color: #7ab55c;
+  border-color: #191a19;
+  color: #191a19;
 }
 /**Call to action **/
 .calltoACtion {
@@ -175,10 +175,11 @@
 }
 .calltoActCont h2 {
   color: #fff;
-  font-family: "againtsregular";
-  font-size: 100px;
+  font-family: "Merriweather", sans-serif;
+  font-size: 50px;
   margin-bottom: 8px;
   text-transform: capitalize;
+  font-style: italic;
 }
 .calltoActCont p {
   color: #fff;
@@ -213,7 +214,7 @@
   width: 100%;
 }
 .subsForm button {
-  background: #288dff;
+  background: #7ab55c;
   color: #fff;
   font-size: 16px;
   height: 50px;
@@ -234,7 +235,7 @@
   font-family: "Montserrat", sans-serif;
 }
 .subsForm button:hover {
-  background: #7ab55c;
+  background: #1a28e6;
 }
 .subsForm .reqError {
   color: #db2429;
@@ -891,6 +892,9 @@
 .carousel-control {
   padding-top: 30px;
   width: 5%;
+  font-size: 70px;
+  margin-top: 5%;
+  background: transparent !important;
 }
 
 .sliding {
@@ -900,5 +904,7 @@
   width: 100% !important;
 }
 
-
-
+.sliding-item .text-center {
+  font-weight: bold;
+  color: #000;
+}
