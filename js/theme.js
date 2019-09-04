@@ -213,13 +213,13 @@
   //===================================
   // Fixed Header
   //===================================
-  $(window).on("scroll", function() {
+  /*$(window).on("scroll", function() {
     if ($(window).scrollTop() > 40) {
       $("header").addClass("fixedHeader animated fadeInUp");
     } else {
       $("header").removeClass("fixedHeader animated fadeInUp");
     }
-  });
+  });*/
   //========================
   // Contact Submit
   //========================

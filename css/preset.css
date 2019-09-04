@@ -124,6 +124,7 @@ h6 {
   color: #7ab55c;
   font-family: "Merriweather", sans-serif;
   margin-bottom: 20px;
+  text-transform: capitalize;
 }
 .headdingOne {
   text-transform: capitalize;
