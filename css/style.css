@@ -47,11 +47,15 @@
 }
 
 .logo img{
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
 }
 .header.fixedHeader .logo2 {
   display: block !important;
+}
+.logo2 img{
+  width: 100px;
+  height: 100px;
 }
 .header.fixedHeader .mainNav ul li a {
   color: #000;
@@ -883,3 +887,18 @@
     transform: rotateY(-180deg);
   }
 }
+
+.carousel-control {
+  padding-top: 30px;
+  width: 5%;
+}
+
+.sliding {
+  background-color: #eaf1f1;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  width: 100% !important;
+}
+
+
+

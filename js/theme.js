@@ -378,10 +378,9 @@
     // Slide Show Bg
     //========================
     $(".banner").vegas({
-        transitionDuration: 1000,
+        transitionDuration: 900,
         slides: [
             {src: "images/images/banner6.jpg"},
-            {src: "images/images/banner4.jpg"},
             {src: "images/images/banner8.jpg"},
             {src: "images/images/banner10.jpg"},
             {src: "images/images/banner12.jpg"},
@@ -389,7 +388,6 @@
             {src: "images/images/banner15.jpg"},
             {src: "images/images/banner16.jpg"},
             {src: "images/images/banner17.jpg"},
-            {src: "images/images/banner18.jpg"},
             {src: "images/images/banner20.jpg"}
             
         ],
