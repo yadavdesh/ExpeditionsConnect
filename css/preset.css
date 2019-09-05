@@ -109,7 +109,7 @@ h6 {
 //  Section Setup
 =========================================================================*/
 .commonSection {
-  padding: 135px 0 100px;
+  padding: 50px 0 50px;
   position: relative;
 }
 .gray {
@@ -123,7 +123,6 @@ h6 {
   line-height: 0.8;
   color: #7ab55c;
   font-family: "Merriweather", sans-serif;
-  margin-bottom: 20px;
   text-transform: capitalize;
 }
 .headdingOne {

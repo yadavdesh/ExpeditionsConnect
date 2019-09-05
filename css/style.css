@@ -26,7 +26,18 @@
 /**Header**/
 /*
 .header {
-  position: fixed;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+  padding: 21px 0;
+}
+*/
+/*
+.header {
+  position: absolute;
   left: 0;
   right: 0;
   top: 0;
@@ -65,11 +76,14 @@
 }
 .mainNav {
 }
+
 .mainNav ul {
 }
 .mainNav ul li {
   display: inline-block;
   margin-left: 32px;
+  vertical-align: middle;
+  margin-top: 40px;
 }
 .mainNav ul li a {
   font-weight: 700;
