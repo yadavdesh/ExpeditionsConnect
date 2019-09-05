@@ -167,6 +167,25 @@
   -o-transition: all 500ms ease;
   transition: all 500ms ease;
 }
+
+.singlePromotion img {
+  /*border: 1px solid #e7e7e7;
+  border-radius: 50%;*/
+  color: #7ab55c;
+  display: block;
+  font-size: 80px;
+  height: 100%;
+  line-height: 0.8;
+  margin: auto auto 70px;
+  padding: 43px 0;
+  width: 150px;
+  height: 250px;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
 .singlePromotion i.pe-7s-plane,
 .singlePromotion i.pe-7s-map {
   font-size: 70px;
