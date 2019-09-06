@@ -59,7 +59,8 @@ a:focus {
   text-decoration: none;
 }
 ul,
-ol {
+ol,
+li {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -109,7 +110,7 @@ h6 {
 //  Section Setup
 =========================================================================*/
 .commonSection {
-  padding: 135px 0 100px;
+  padding: 50px 0 50px;
   position: relative;
 }
 .gray {

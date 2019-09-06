@@ -35,6 +35,20 @@
   padding: 21px 0;
 }
 */
+<<<<<<< HEAD
+=======
+/*
+.header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+  padding: 21px 0;
+}
+*/
+>>>>>>> 2eaefdacfba9213ff3e9fcf12c1d41ac1c7f372a
 .header.fixedHeader {
   position: fixed;
   left: 0;
@@ -50,30 +64,40 @@
 }
 
 .logo img {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
+  margin: -50px;
 }
 .header.fixedHeader .logo2 {
   display: block !important;
 }
 .logo2 img {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
+  margin-top: -70px;
+  margin-left: 0;
 }
 .header.fixedHeader .mainNav ul li a {
   color: #000;
 }
 .mainNav {
 }
+
 .mainNav ul {
 }
 .mainNav ul li {
   display: inline-block;
   margin-left: 32px;
+  vertical-align: middle;
+  margin-top: 40px;
 }
 .mainNav ul li a {
   font-weight: 700;
+<<<<<<< HEAD
   color: #7ab55c;
+=======
+  color: #030303;
+>>>>>>> 2eaefdacfba9213ff3e9fcf12c1d41ac1c7f372a
   display: block;
   text-transform: uppercase;
   line-height: 0.8;
@@ -147,6 +171,25 @@
   margin: auto auto 70px;
   padding: 43px 0;
   width: 150px;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.singlePromotion img {
+  /*border: 1px solid #e7e7e7;
+  border-radius: 50%;*/
+  color: #7ab55c;
+  display: block;
+  font-size: 80px;
+  height: 100%;
+  line-height: 0.8;
+  margin: auto auto 70px;
+  padding: 43px 0;
+  width: 150px;
+  height: 250px;
   -webkit-transition: all 500ms ease;
   -moz-transition: all 500ms ease;
   -ms-transition: all 500ms ease;
@@ -682,7 +725,7 @@
 }
 /**Footer **/
 .footer {
-  padding: 87px 0 125px;
+  padding: 50px 0 50px;
 }
 .navigation li {
   display: inline-block;
@@ -710,6 +753,7 @@
   font-weight: 500;
   font-family: "Montserrat", sans-serif;
 }
+
 .navigation li a:hover {
   color: #7ab55c;
 }
@@ -909,7 +953,17 @@
   width: 100% !important;
 }
 
+.sliding .expeditions {
+  padding-top: 50px;
+  padding-bottom: 40px;
+  width: 100% !important;
+}
+
 .sliding-item .text-center {
   font-weight: bold;
   color: #000;
+}
+
+.sliding expeditions h2 {
+  padding-left: 70px;
 }
