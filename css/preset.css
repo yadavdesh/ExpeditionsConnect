@@ -59,8 +59,7 @@ a:focus {
   text-decoration: none;
 }
 ul,
-ol,
-li {
+ol {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -80,7 +79,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", sans-serif;
+  /*font-family: "Montserrat", sans-serif;*/
+  font-family: "GeoBrandBold", "CenturyGothic", "AppleGothic", "Gill Sans",
+    "Gill Sans MT", "sans-serif";
   text-transform: uppercase;
   color: #000;
   font-weight: 700;
@@ -120,12 +121,15 @@ h6 {
   margin-bottom: 128px;
 }
 .commonTitle h2 {
-  font-size: 50px;
+  font-size: 30px;
   line-height: 0.8;
-  color: #7ab55c;
-  font-family: "Merriweather", sans-serif;
+  color: #060706;
+  /*font-family: "Merriweather", sans-serif;*/
+  font-family: "GeoBrandBold", "CenturyGothic", "AppleGothic", "Gill Sans",
+    "Gill Sans MT", "sans-serif";
+
   margin-bottom: 20px;
-  text-transform: capitalize;
+  /*text-transform: capitalize;*/
 }
 .headdingOne {
   text-transform: capitalize;

@@ -154,6 +154,10 @@
   background: rgba(0, 0, 0, 0) url("../images/promotionbg.png") no-repeat scroll
     0 -21px;
 }
+
+.how {
+  background-color: rgb(181, 201, 201);
+}
 .singlePromotion {
   padding-bottom: 50px;
 }
@@ -944,13 +948,12 @@
 }
 
 .sliding {
-  background-color: #eaf1f1;
   padding-top: 50px;
   padding-bottom: 40px;
   width: 100% !important;
 }
 
-.sliding .expeditions {
+.expeditions {
   padding-top: 50px;
   padding-bottom: 40px;
   width: 100% !important;
