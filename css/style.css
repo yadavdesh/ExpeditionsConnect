@@ -64,16 +64,16 @@
 }
 
 .logo img {
-  width: 200px;
-  height: 200px;
-  margin: -50px;
+  width: 150px;
+  height: 150px;
+  margin: -20px;
 }
 .header.fixedHeader .logo2 {
   display: block !important;
 }
 .logo2 img {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   margin-top: -70px;
   margin-left: 0;
 }
@@ -93,12 +93,9 @@
 }
 .mainNav ul li a {
   font-weight: 700;
-<<<<<<< HEAD
-  color: #7ab55c;
-=======
-  color: #030303;
->>>>>>> 2eaefdacfba9213ff3e9fcf12c1d41ac1c7f372a
-  display: block;
+  <<<<<<<headcolor: #7ab55c;
+  =======color: #030303;
+  >>>>>>>2eaefdacfba9213ff3e9fcf12c1d41ac1c7f372adisplay: block;
   text-transform: uppercase;
   line-height: 0.8;
   font-family: "Montserrat", sans-serif;
