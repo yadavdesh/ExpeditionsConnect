@@ -66,15 +66,15 @@
 .logo img {
   width: 150px;
   height: 150px;
-  margin: -20px;
+  margin: -10px;
 }
 .header.fixedHeader .logo2 {
   display: block !important;
 }
 .logo2 img {
-  width: 100px;
-  height: 100px;
-  margin-top: -70px;
+  width: 140px;
+  height: 140px;
+  margin-top: -20px;
   margin-left: 0;
 }
 .header.fixedHeader .mainNav ul li a {
