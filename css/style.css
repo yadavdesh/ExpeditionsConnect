@@ -252,7 +252,8 @@
   opacity: 0.7;
 }
 .subsForm input {
-  background: #fff none repeat scroll 0 0;
+  /*background: #fff none repeat scroll 0 0;*/
+  background-color: #f5f5e0;
   border: medium none;
   border-radius: 12px;
   color: #333;
@@ -271,7 +272,7 @@
   text-align: center;
   text-transform: capitalize;
   top: 0;
-  width: 120px;
+  width: 140px;
   position: absolute;
   right: -1px;
   top: -1px;
@@ -972,7 +973,6 @@
 
 .explorer {
   padding: 40px;
-  background-color: #999999;
 }
 .explorer .btn {
   margin-top: -100px;
@@ -983,7 +983,7 @@
   border-radius: 50%;
   width: 180px;
   height: 180px;
-  filter: blur(3px);
+  filter: blur(9px);
   -webkit-filter: blur(3px);
   margin-bottom: 30px;
 }
@@ -1002,4 +1002,15 @@
 
 .banner-signup a {
   margin-top: 20px;
+}
+
+#expert p {
+  font-size: 20px;
+  line-height: 0.8;
+  color: #000;
+  font-family: "Merriweather", serif;
+  font-weight: 200;
+  font-style: italic;
+  margin-bottom: 15px;
+  text-transform: none !important;
 }
