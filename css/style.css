@@ -137,7 +137,8 @@
   text-transform: capitalize;
   font-style: italic;
 }
-.bannerCont p {
+.bannerCont p,
+.expert-text {
   font-size: 25px;
   line-height: 0.8;
   color: #fff;
@@ -156,7 +157,7 @@
 }
 
 .how {
-  background-color: rgb(181, 201, 201);
+  background-color: #cadbd6;
 }
 .singlePromotion {
   padding-bottom: 50px;
@@ -221,7 +222,7 @@
   color: #fff;
 }
 .calltoActCont h2 {
-  color: #000;
+  color: #fff;
   font-family: "Merriweather", sans-serif;
   font-size: 50px;
   margin-bottom: 8px;
@@ -957,6 +958,7 @@
   padding-top: 50px;
   padding-bottom: 40px;
   width: 100% !important;
+  background-color: #cadbd6;
 }
 
 .sliding-item .text-center {
@@ -966,4 +968,38 @@
 
 .sliding expeditions h2 {
   padding-left: 70px;
+}
+
+.explorer {
+  padding: 40px;
+  background-color: #999999;
+}
+.explorer .btn {
+  margin-top: -100px;
+  margin-bottom: 50px;
+}
+
+.explorer-item img {
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
+  margin-bottom: 30px;
+}
+.explorer-text {
+  color: #f2f2f2;
+  margin-top: -70%;
+  position: absolute;
+  margin-left: 25px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.row banner-signup {
+  display: inline;
+}
+
+.banner-signup a {
+  margin-top: 20px;
 }

@@ -14,4 +14,14 @@ $(document).ready(function() {
   $("#expeditionCarousel").on("slid.bs.carousel", function() {
     //alert("slid");
   });
+
+  function overlay() {
+    $(function() {
+      $("#signup").dialog({
+        width: 250,
+        height: 180,
+        modal: true
+      });
+    });
+  }
 });

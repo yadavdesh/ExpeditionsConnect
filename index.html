@@ -61,7 +61,7 @@
                             </div>
                             <ul>
                                 <li class="scroll"><a href="#about">about us</a></li>
-                                <li class="scroll"><a href="#todo">explorers</a></li>
+                                <li class="scroll"><a href="#explorer">explorers</a></li>
                                 <li class="scroll"><a href="#todo">expeditions</a></li>
                                 <li class="scroll"><a href="#subscribe">education</a></li>
                                 <li class="scroll"><a href="#subscribe">events</a></li>
@@ -82,11 +82,17 @@
                             <h1>Keep the explorer inside you alive....</h1>
                             <p>Connect with professionals, Learn from experience & Explore together, Get inspired for next adventure</p>
                             <!-- <p>Connect with professionals, Learn from experience & Explore together, Get inspired for next adventure. </p> -->
-                            <form action="php/subscription.php" method="post" class="subsForm" id="subscriptionsforms">
-                                <input type="email" placeholder="Enter email address" id="sub_email" name="sub_email">
-                                <button id="sub_submit" type="submit">Connect Now</button>
-                                <div class="clearfix"></div>
-                            </form> 
+                            <div class="row banner-signup">
+                                
+                                    <form action="php/subscription.php" method="post" class="subsForm" id="subscriptionsforms">
+                                        <input type="email" placeholder="Enter email address" id="sub_email" name="sub_email">
+                                        <button id="sub_submit" type="submit">Connect Now</button>
+                                        <div class="clearfix"></div>
+                                    </form> 
+                                    <a class="scroll btn btn-lg btn-success" href="#expert">Signup as an Expert</a>         
+                            </div>
+                            
+                            
                         </div>
                     </div>
                 </div>
@@ -140,7 +146,55 @@
                 </div>
             </div>
         </section>
-
+        <section class="explorer" id="explorer">
+            <div class="commonTitle text-center">
+                <h2>Explorers</h2>
+            </div>
+            <div class="container">
+                <div class="col-lg-12 text-center">
+                    <a class="btn btn-success btn-lg" href="#subscribe"> MEET OUR EXPLORERS</a>
+                    <div class="row">
+                        <div class="col-lg-2 explorer-item">
+                            <img src="images/hiking.jpg" alt="Image" class="img-responsive">
+                            <p class="text-center explorer-text">Photographers</p>
+                        </div>
+                        <div class="col-lg-2 explorer-item">
+                            <img src="images/photography.jpg" alt="Image" class="img-responsive">
+                            <p class="text-center explorer-text">Wildlifers</p>
+                        </div>
+                        <div class="col-lg-2 explorer-item">
+                            <img src="images/wildlife.jpg" alt="Image" class="img-responsive">
+                            <p class="text-center explorer-text">Adventurers</p>
+                        </div>
+                        <div class="col-lg-2 explorer-item">
+                            <img src="images/diving.jpg" alt="Image" class="img-responsive">
+                            <p class="text-center explorer-text">Conservationists</p>
+                        </div>
+                        <div class="col-lg-2 explorer-item">
+                            <img src="images/wildlife.jpg" alt="Image" class="img-responsive">
+                            <p class="text-center explorer-text">Adventurers</p>
+                        </div>
+                        <div class="col-lg-2 explorer-item">
+                            <a href="#subscribe">
+                                <img src="images/more.png" alt="Image" class="img-responsive">
+                                <p class="text-center explorer-text">View All Explorers</p>
+                            </a>
+                        </div>
+                    </div>
+                    <div id="expert">
+                        <p class="text-center expert-text">
+                            If you are an professionsl explorer, please signup below for earlybird free membership program.
+                        </p>
+                    
+                        <form action="php/subscription.php" method="post" class="subsForm" id="subscriptionsforms">
+                            <input type="email" placeholder="Enter email address" id="sub_email" name="sub_email">
+                            <button id="sub_submit" type="submit">Signup</button>
+                            <div class="clearfix"></div>
+                        </form> 
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- <section class="calltoACtion" data-parallax="scroll" data-image-src="images/caltoactionbg.jpg">
 
             <div class="container">
@@ -183,7 +237,7 @@
                 </div>
             </div>
         </section>   -->
-  
+  <!---
         <section class="sliding", id="todo">
             <div class="commonTitle text-center">
                 <h2>Explorers</h2>
@@ -192,7 +246,7 @@
                 <div class="col-lg-12 text-center"></div>
                     <div id="myCarousel" class="carousel slide">
                             
-                        <!-- Carousel items -->
+                        
                         <div class="carousel-inner">
                             <div class="item active">
                                 <div class="row">
@@ -213,9 +267,9 @@
                                         <p class="text-center">Wildlifers</p>
                                     </div>
                                 </div>
-                                <!--/row-->
+                               
                             </div>
-                            <!--/item-->
+                           
                             <div class="item">
                                 <div class="row">
                                     <div class="col-lg-3 explorer-item">
@@ -235,9 +289,9 @@
                                         <p class="text-center">Historians & Geographers</p>
                                     </div>
                                 </div>
-                                <!--/row-->
+                                
                             </div>
-                            <!--/item-->
+                           
                             <div class="item">
                                 <div class="row">
                                     <div class="col-lg-3 explorer-item">
@@ -257,10 +311,10 @@
                                         <p class="text-center">Journalists & Reporters</p>
                                     </div>
                                 </div>
-                                <!--/row-->
+                                
                             </div>
                             
-                            <!--/item-->
+                            
                             <div class="item">
                                 <div class="row">
                                     <div class="col-lg-3 explorer-item">
@@ -280,19 +334,19 @@
                                         <p class="text-center">Others</p>
                                     </div>
                                 </div>
-                                <!--/row-->
+                               
                             </div>
-                            <!--/item-->
+                           
                         </div>
-                        <!--/carousel-inner--> 
+                    
                         <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
                         <a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
                     </div>
-                    <!--/myCarousel-->
+                 
                 </div>
             </div> 
         </section>
-
+    -->
         <section class="expeditions" , id="todo">
             <div class="commonTitle text-center">
                 <h2>Expeditions</h2>
@@ -318,7 +372,7 @@
                                         <p class="text-center">Kayaking & Rafting</p>
                                     </div>
                                     <div class="col-lg-3 sliding-item">
-                                        <a href="#x"><img src="images/expeditionwidget/Birdwatching.jpg" alt="Image" class="img-responsive"></a>
+                                        <a href="#x"><img src="images/expeditionwidget/birdwatching.jpg" alt="Image" class="img-responsive"></a>
                                         <p class="text-center">Birdwatching</p>
                                     </div>
                                 </div>
@@ -480,10 +534,10 @@
                         <div class="widget">
                             <ul class="navigation">
                                 <li><a href="#">Home</a></li>
-                                <li><a href="#">about us</a></li>
-                                <li><a href="#">explorers</a></li>
-                                <li><a href="#">expeditions</a></li>
-                                <li><a href="#">expeditions</a></li>
+                                <li><a href="#about">about us</a></li>
+                                <li><a href="#explorer">explorers</a></li>
+                                <li><a href="#todo">expeditions</a></li>
+                                <li><a href="#">educations</a></li>
                                 <li><a href="#">events</a></li>
                             </ul>
     
@@ -515,6 +569,16 @@
                 <p class="closers">Your Booking Request successfully sent!</p>
             </div>
         </div>
+<!--
+        <div class="singup" id="signup">
+            <form action="php/subscription.php" method="post" class="subsForm" id="subscriptionsforms">
+                <input type="email" placeholder="Enter email address" id="sub_email" name="sub_email">
+                <button id="sub_submit" type="submit">Connect Now</button>
+                <div class="clearfix"></div>
+            </form> 
+        </div>
+
+-->
 
 
         <a href="#" id="backToTop"><i class="fa fa-angle-up"></i></a>

@@ -133,6 +133,7 @@ h6 {
 }
 .headdingOne {
   text-transform: capitalize;
+  margin-bottom: -50px;
 }
 .commonTitle p {
   font-family: "Montserrat", sans-serif;
