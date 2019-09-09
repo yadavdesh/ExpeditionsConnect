@@ -980,12 +980,13 @@
 }
 
 .explorer-item img {
-  border-radius: 50%;
+  
   width: 180px;
   height: 180px;
-  filter: blur(3px);
-  -webkit-filter: blur(3px);
+  /*filter: blur(3px);
+  -webkit-filter: blur(3px);*/
   margin-bottom: 30px;
+  border
 }
 .explorer-text {
   color: #f2f2f2;
