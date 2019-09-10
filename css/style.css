@@ -204,8 +204,6 @@
 }
 .singlePromotion h2 {
   font-size: 18px;
-  margin-bottom: 49px;
-  font-weight: 700;
 }
 .singlePromotion:hover i {
   border-color: #191a19;
@@ -393,35 +391,7 @@
   text-align: center;
   top: 0;
 }
-.vidContent h2 {
-  color: #fff;
-  font-family: "againtsregular";
-  font-size: 100px;
-  margin-bottom: 13px;
-  text-transform: capitalize;
-}
-#playVideos {
-  border: 2px solid #7ab55c;
-  border-radius: 50%;
-  display: inline-block;
-  height: 80px;
-  line-height: 0.8;
-  padding: 23px;
-  width: 80px;
-}
-#playVideos i {
-  color: #7ab55c;
-  font-size: 37px;
-  font-weight: 900;
-  line-height: 0.8;
-  text-align: center;
-}
-#playVideos.active i {
-  color: #fff;
-}
-#playVideos.active {
-  border-color: #fff;
-}
+
 /**Contact section Video Section What we do Call to action Promotion**/
 .contactSec {
   padding: 50px 0;
@@ -444,23 +414,12 @@
 .contTopinfo {
   margin-bottom: 37px;
 }
-.contTopinfo h1 {
-  color: #288dff;
-  font-size: 100px;
-  position: relative;
-  padding-left: 30px;
-  letter-spacing: -10px;
-}
+
 .offeredRow,
 .startingRow {
   margin-bottom: 90px;
 }
-.contTopinfo h1 span {
-  font-size: 30px;
-  position: absolute;
-  top: 9px;
-  left: 0;
-}
+
 .singleOffer {
   border-bottom: 1px solid #e1e1e1;
   margin: 14px 0;
