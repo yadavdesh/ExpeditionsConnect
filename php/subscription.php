@@ -1,9 +1,5 @@
 <?php
-require 'vendor/autoload.php';
 $email = $_POST['sub_email'];
-
-
-
 
 $to = 'yadavdesh@gmail.com';
 $subject = 'Expeditions Connect Subscription';

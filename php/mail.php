@@ -1,5 +1,4 @@
 <?php
-require 'vendor/autoload.php';
 parse_str($_POST['allData'], $formData);
 
 $jname = $formData['jname'];

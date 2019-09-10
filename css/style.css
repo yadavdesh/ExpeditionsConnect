@@ -35,20 +35,6 @@
   padding: 21px 0;
 }
 */
-<<<<<<< HEAD
-=======
-/*
-.header {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  width: 100%;
-  z-index: 3;
-  padding: 21px 0;
-}
-*/
->>>>>>> 2eaefdacfba9213ff3e9fcf12c1d41ac1c7f372a
 .header.fixedHeader {
   position: fixed;
   left: 0;
@@ -64,8 +50,8 @@
 }
 
 .logo img {
-  width: 150px;
-  height: 150px;
+  width: 120px;
+  height: 120px;
   margin: -10px;
 }
 .header.fixedHeader .logo2 {
@@ -137,8 +123,7 @@
   text-transform: capitalize;
   font-style: italic;
 }
-.bannerCont p,
-.expert-text {
+.bannerCont p {
   font-size: 25px;
   line-height: 0.8;
   color: #fff;
@@ -252,7 +237,8 @@
   opacity: 0.7;
 }
 .subsForm input {
-  background: #fff none repeat scroll 0 0;
+  /*background: #fff none repeat scroll 0 0;*/
+  background-color: #f5f5e0;
   border: medium none;
   border-radius: 12px;
   color: #333;
@@ -271,7 +257,7 @@
   text-align: center;
   text-transform: capitalize;
   top: 0;
-  width: 120px;
+  width: 140px;
   position: absolute;
   right: -1px;
   top: -1px;
@@ -972,29 +958,23 @@
 
 .explorer {
   padding: 40px;
-  background-color: #999999;
+  
 }
 .explorer .btn {
   margin-top: -100px;
   margin-bottom: 50px;
 }
 
-.explorer-item img {
-  
-  width: 180px;
-  height: 180px;
-  /*filter: blur(3px);
+.explorer-item img{
+  width: 200px;
+  height: 200px;
+/* filter: blur(9px);
+  border-radius: 20%;
   -webkit-filter: blur(3px);*/
-  margin-bottom: 30px;
-  border
-}
-.explorer-text {
-  color: #f2f2f2;
-  margin-top: -70%;
-  position: absolute;
-  margin-left: 25px;
-  font-size: 15px;
-  font-weight: bold;
+
+  display: 40%;
+  margin: auto;
+
 }
 
 .row banner-signup {
@@ -1004,3 +984,16 @@
 .banner-signup a {
   margin-top: 20px;
 }
+
+#expert p, #expertsignup p{
+  font-size: 16px;
+  color: #666666;
+  font-family: "Merriweather", serif;
+  margin-bottom: 15px;
+  text-transform: none !important;
+}
+#expertsignup{
+  margin-bottom: 30px;
+  
+}
+
