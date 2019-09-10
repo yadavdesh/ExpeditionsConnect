@@ -35,9 +35,9 @@
 /* Normalization */
 htm,
 body {
-  color: #666666;
+  color: #5e5b5b;
   font-family: "Merriweather", serif;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 300;
   line-height: 32px;
 }
@@ -67,12 +67,7 @@ ol {
 button {
   border: none;
 }
-p.lead {
-  font-size: 16px;
-  font-style: italic;
-  line-height: 26px;
-  margin-bottom: 15px;
-}
+
 h1,
 h2,
 h3,
@@ -86,26 +81,23 @@ h6 {
   margin-top: 20px;
   font-weight: normal;
   text-transform: capitalize;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
-/*=======================================================================
-//  Travel Button
-=========================================================================*/
-.travelBtn {
-  height: 50px;
-  display: inline-block;
-  background: #288dff;
-  color: #fff;
-  border-radius: 30px;
-  font-size: 20px;
-  font-weight: 300;
-  line-height: 0.8;
-  padding: 17px 35px;
+
+p {
+  font-family: GeoEditRegular, "Franklin Gothic Medium", "Franklin Gothic",
+    "ITC Franklin Gothic", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 17px;
+  font-weight: 400;
+  font-size: 17px;
+  color: #5e5b5b;
+  letter-spacing: 0.3px;
+  line-height: 1.75;
+  margin-top: 35px;
+  margin-bottom: 30px;
 }
-.travelBtn:hover {
-  background: #7ab55c;
-  color: #fff;
-}
+
 /*=======================================================================
 //  Section Setup
 =========================================================================*/
@@ -116,22 +108,7 @@ h6 {
 .gray {
   background: #fafafa;
 }
-.commonTitle {
-  margin-bottom: 128px;
-}
 
-.commonTitle p {
-  font-family: "Montserrat", sans-serif;
-  text-transform: uppercase;
-  font-size: 20px;
-  font-weight: 400;
-  color: #000;
-}
-.commonTitle p span {
-  text-transform: lowercase;
-  font-style: italic;
-  font-family: "Merriweather", serif;
-}
 /*=======================================================================
 //  Margin and padding setup
 =========================================================================*/

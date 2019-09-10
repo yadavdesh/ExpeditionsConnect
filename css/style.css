@@ -140,10 +140,6 @@
   background: rgba(0, 0, 0, 0) url("../images/promotionbg.png") no-repeat scroll
     0 -21px;
 }
-
-.how {
-  background-color: #cadbd6;
-}
 .singlePromotion {
   padding-bottom: 50px;
 }
@@ -188,7 +184,7 @@
   font-size: 70px;
 }
 .singlePromotion h2 {
-  font-size: 18px;
+  font-size: 20px;
 }
 .singlePromotion:hover i {
   border-color: #191a19;
@@ -347,35 +343,6 @@
   font-style: italic;
   text-transform: lowercase;
 }
-/**Video Section What we do Call to action Promotion**/
-.videoSection {
-  height: 900px;
-  padding: 0;
-  position: relative;
-}
-#videoWrap1 {
-  height: 100%;
-  overflow: hidden;
-  position: relative;
-  width: 100%;
-}
-#myVideo1 {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-}
-.vidContent {
-  bottom: 0;
-  height: 277px;
-  left: 0;
-  margin: auto;
-  position: absolute;
-  right: 0;
-  text-align: center;
-  top: 0;
-}
 
 /**Contact section Video Section What we do Call to action Promotion**/
 .contactSec {
@@ -482,23 +449,7 @@
 .topTitle {
   margin-bottom: 64px;
 }
-.topTitle p {
-  font-size: 16px;
-  color: #000;
-  font-style: italic;
-  font-weight: 700;
-  line-height: 0.8;
-  margin-bottom: 18px;
-}
-.topTitle h3 {
-  font-size: 24px;
-  line-height: 0.8;
-  font-weight: 700;
-}
-.topTitle h3 span {
-  font-family: "Merriweather", serif;
-  text-transform: lowercase;
-}
+
 .singleConForm p {
   position: absolute;
   top: 0;
@@ -567,28 +518,6 @@
   padding-top: 2px;
   font-family: "FontAwesome";
 }
-.travelBtnCont {
-  height: 50px;
-  display: inline-block;
-  background: #288dff;
-  color: #fff;
-  border-radius: 30px;
-  font-size: 20px;
-  font-weight: 300;
-  line-height: 0.8;
-  padding: 17px 54px;
-  font-weight: 700;
-  font-style: italic;
-  -webkit-transition: all 500ms ease;
-  -moz-transition: all 500ms ease;
-  -ms-transition: all 500ms ease;
-  -o-transition: all 500ms ease;
-  transition: all 500ms ease;
-}
-.travelBtnCont:hover {
-  background: #7ab55c;
-  color: #fff;
-}
 
 /**Testmonial **/
 .testmonial {
@@ -627,21 +556,7 @@
   color: #403e3e;
   font-weight: 700;
 }
-.testdeg {
-}
-.testdeg h4 {
-  font-size: 14px;
-  line-height: 0.8;
-  margin-bottom: 10px;
-  text-transform: uppercase;
-  font-weight: 700;
-}
-.testdeg h5 {
-  color: #a5a5a5;
-  font-size: 12px;
-  text-transform: uppercase;
-  font-weight: 700;
-}
+
 .owl-controls {
   margin-top: 45px;
 }
@@ -658,18 +573,7 @@
   background: #fff none repeat scroll 0 0;
   border-color: #7ab55c;
 }
-/**Instra **/
-.instagramSec {
-  padding: 105px 0 102px;
-  border-bottom: 1px solid #ececec;
-}
-#instRow {
-  padding: 0 50px;
-}
-#instRow img {
-  width: 100%;
-  height: auto;
-}
+
 /**Footer **/
 .footer {
   padding: 50px 0 50px;
@@ -735,26 +639,6 @@
   font-size: 13px;
   line-height: 0.8;
   font-weight: 500;
-}
-.showit {
-  background: #7ab55c;
-  bottom: 50px;
-  color: #fff;
-  font-size: 20px;
-  height: 40px;
-  line-height: 0.8;
-  padding: 10px 12px;
-  position: fixed;
-  right: 30px;
-  text-align: center;
-  width: 40px;
-  z-index: 99;
-}
-.showit i {
-  color: #fff;
-}
-.showit:hover {
-  background: #333;
 }
 
 /**subscription **/
@@ -909,6 +793,8 @@
 .sliding-item .text-center {
   font-weight: bold;
   color: #000;
+  margin: 2px;
+  font-size: 15px;
 }
 
 .sliding expeditions h2 {
@@ -917,42 +803,60 @@
 
 .explorer {
   padding: 40px;
-  
 }
 .explorer .btn {
   margin-top: -100px;
   margin-bottom: 50px;
 }
 
-.explorer-item img{
+.explorer-item img {
   width: 200px;
   height: 200px;
-/* filter: blur(9px);
-  border-radius: 20%;
-  -webkit-filter: blur(3px);*/
-
   display: 40%;
   margin: auto;
-
 }
 
 .row banner-signup {
-  display: inline;
+  display: inline-block;
 }
 
-.banner-signup a {
-  margin-top: 20px;
-}
-
-#expert p, #expertsignup p{
-  font-size: 16px;
-  color: #666666;
-  font-family: "Merriweather", serif;
-  margin-bottom: 15px;
-  text-transform: none !important;
-}
-#expertsignup{
+#expertsignup {
   margin-bottom: 30px;
-  
+  background-color: #808382;
+  padding-bottom: 20px;
+  padding-top: 3px;
+  width: 70%;
+  margin: auto;
+  border-radius: 12px;
+  background-color: #cadbd6;
 }
 
+#expertsignup p {
+  margin-bottom: 0px;
+}
+
+#how {
+  background-color: #cadbd6;
+}
+
+.well {
+  margin-bottom: 2px;
+  padding: 10px;
+}
+
+.expert-btn {
+  display: inline-block;
+}
+
+#expert-btn {
+  border-radius: 12px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  background-color: #7ab55c;
+  color: #fff;
+  height: 48px;
+  text-align: center;
+  border-color: #7ab55c;
+  padding: 15px;
+  opacity: 0.7;
+}
