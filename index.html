@@ -82,17 +82,17 @@
                             <h1>Keep the explorer inside you alive....</h1>
                             <p>Connect with experts, Learn from experience & Explore together, Get inspired for next adventure</p>
                             <!-- <p>Connect with professionals, Learn from experience & Explore together, Get inspired for next adventure. </p> -->
-                            <div class="row banner-signup">
-                                
-                                    <form action="php/subscription.php" method="post" class="subsForm expert-btn" id="subscriptionsforms">
+                            <div class="row banner-signup">               
+                                    <!--<form action="php/subscription.php" method="post" class="subsForm expert-btn" id="subscriptionsforms">
                                         <input type="email" placeholder="Enter email address" id="sub_email" name="sub_email">
-                                        <button id="sub_submit" type="submit">Connect Now</button>
+                                        <button id="sub_submit" name="submit" type="submit">Connect Now</button>
                                         <div class="clearfix"></div>
-                                    </form> 
-                                    <a class="scroll btn btn-lg btn-success expert-btn" id="expert-btn" href="#expert">Signup as an expert</a>         
+                                    </form> -->
+                                    <a class="scroll btn btn-lg btn-success expert-btn" id="expert-btn" href="#expert">Signup as an expert</a>
+                                    <a class="scroll btn btn-lg btn-success expert-btn" id="expert-btn" href="#subscribe">Signup as an enthusiast</a>          
                             </div>
                             
-                            
+                           
                         </div>
                     </div>
                 </div>
@@ -177,7 +177,7 @@
                     </p>
                     <form action="php/subscription.php" method="post" class="subsForm" id="subscriptionsforms">
                         <input type="email" placeholder="Enter email address" id="sub_email" name="sub_email">
-                        <button id="sub_submit" type="submit">Experts Signup</button>
+                        <button id="sub_submit" name="submit" type="submit">Experts Signup</button>
                         <div class="clearfix"></div>
                     </form> 
                 </div>
@@ -276,8 +276,10 @@
                                         <p class="text-center">History & Archaelogy</p>
                                     </div>
                                     <div class="col-lg-3 sliding-item">
-                                        <a href="#x"><img src="images/expeditionwidget/diving.jpg" alt="Image" class="img-responsive"></a>
-                                        <p class="text-center">View More</p>
+                                        <a href="#subscribe">
+                                            <a href="#x"><img src="images/expeditionwidget/diving.jpg" alt="Image" class="img-responsive"></a>
+                                            <p class="text-center">View More</p>
+                                        </a>
                                     </div>
                                 </div>
                                 <!--/row-->
@@ -308,7 +310,7 @@
                             <h2 class="testTitle">Subscribe to be part of adventure</h2>
                             <form action="php/subscription.php" method="post" class="subsForm" id="subscriptionsforms">
                                 <input type="email" placeholder="Enter email address" id="sub_email" name="sub_email">
-                                <button id="sub_submit" type="submit">Connect Now</button>
+                                <button id="sub_submit" name="submit" type="submit">Connect Now</button>
                                 <div class="clearfix"></div>
                             </form> 
                         </div>
@@ -317,7 +319,7 @@
             </div>
         </section>
         <footer class="footer">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-5 col-sm-6">
                         <div class="widget">
@@ -343,10 +345,11 @@
                     </div>
                     <div class="col-lg-3 col-sm-12 noPaddingLeft wow zoomIn" data-wow-duration="700ms" data-wow-delay="300ms">                                <div class="widget">
                         <div class="socialfooter">
-                            <a href="#" class="fac"><i class="fa fa-facebook"></i></a>
+                            <a href="https://www.facebook.com/expeditionsconnect/" class="fac"><i class="fa fa-facebook"></i></a>
                             <a href="#" class="twi"><i class="fa fa-twitter"></i></a>
                             <a href="#" class="link"><i class="fa fa-linkedin"></i></a>
                             <a href="#" class="goo"><i class="fa fa-google-plus"></i></a>
+                            <a href="#" class="insta"><i class="fa fa-instagram"></i></a>
                         </div>
                         <p class="copyPera">©2019 Expeditions Connect. All rights reserved</p>
                     </div>

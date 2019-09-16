@@ -61,7 +61,7 @@
   width: 140px;
   height: 140px;
   margin-top: -20px;
-  margin-left: 0;
+  margin-left: 120px;
 }
 .header.fixedHeader .mainNav ul li a {
   color: #000;
@@ -633,6 +633,9 @@
 }
 .socialfooter a.link:hover {
   background: #0073b2;
+}
+.socialfooter a.insta:hover {
+  background: #690a69;
 }
 .copyPera {
   color: #95a5a9;

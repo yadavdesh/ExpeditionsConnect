@@ -290,7 +290,7 @@
           data: { sub_email: sub_email },
           success: function(data) {
             $("#subscriptionsforms input").val("");
-            $("#sub_submit").html("Done!");
+            $("#sub_submit").html("Subscribed!");
             $(".subscriptionSuccess").fadeIn("slow");
             setTimeout(function() {
               $(".subscriptionSuccess").fadeOut("slow");
