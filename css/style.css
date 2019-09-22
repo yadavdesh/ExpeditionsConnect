@@ -66,8 +66,6 @@
 .header.fixedHeader .mainNav ul li a {
   color: #000;
 }
-.mainNav {
-}
 
 .mainNav ul {
 }
@@ -79,9 +77,9 @@
 }
 .mainNav ul li a {
   font-weight: 700;
-  <<<<<<<headcolor: #7ab55c;
-  =======color: #030303;
-  >>>>>>>2eaefdacfba9213ff3e9fcf12c1d41ac1c7f372adisplay: block;
+  color: #7ab55c;
+  color: #030303;
+  display: block;
   text-transform: uppercase;
   line-height: 0.8;
   font-family: "Montserrat", sans-serif;
@@ -775,7 +773,7 @@
 .carousel-control {
   padding-top: 30px;
   width: 5%;
-  font-size: 70px;
+  font-size: 80px !important;
   margin-top: 5%;
   background: transparent !important;
 }
@@ -862,4 +860,16 @@
   border-color: #7ab55c;
   padding: 15px;
   opacity: 0.7;
+}
+
+.commonTitle h3 {
+  margin-top: 40px;
+  font-size: 17px;
+  margin-left: 100px;
+  font-weight: bold;
+}
+
+.commonTitle p {
+  text-align: justify;
+  margin-left: 30px;
 }

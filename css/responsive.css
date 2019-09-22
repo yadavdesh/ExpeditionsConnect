@@ -34,14 +34,16 @@
 }
 @media (min-width: 320px) and (max-width: 767px) {
   .mobileMenu {
-    width: 25px;
+    width: 35px;
     height: 20px;
     line-height: 0.2;
     position: absolute;
     right: 15px;
     top: -28px;
     cursor: pointer;
+    font-size: 40px;
   }
+
   .mobileMenu span {
     width: 100%;
     height: 2px;
@@ -51,15 +53,28 @@
   .fixedHeader .mobileMenu span {
     background: #000;
   }
+
+  .mainNav {
+    width: 100%;
+    display: block;
+    position: relative;
+    top: -35px;
+    left: -10px;
+    z-index: 3;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+
   .mainNav ul {
     background: #fff;
     display: none;
     left: 0;
-    margin: auto;
-    padding-top: 5px;
+    margin-top: 30px;
     position: absolute;
     text-align: center;
-    width: 100%;
+    width: 80%;
+    margin: auto;
+    z-index: 3;
   }
   .mainNav ul li {
     display: block;
@@ -71,17 +86,71 @@
     color: #333;
   }
   .bannerCont h1 {
-    font-size: 85px;
-    margin-top: 30px;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    line-height: 25px;
   }
+
   .bannerCont p {
-    line-height: 40px;
+    line-height: 25px;
+    font-size: 15px;
+    margin: 10px;
   }
+
+  h1,
+  h2,
+  h3 {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .logo .col-sm-3 {
+    margin-right: 100px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  .logo {
+    margin-right: 100px;
+    margin-top: 10px;
+    margin-bottom: px;
+  }
+
+  .logo2 {
+    width: 80%;
+    margin: auto;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .logo2 img {
+    margin-right: 35px;
+    margin-left: 40px;
+    margin-top: -50px;
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+
   .travelBtn {
     padding: 17px 20px;
-
+  }
+  #expert-btn {
+    font-size: 15px;
+  }
   .wedocont {
     padding: 50px 0;
+  }
+  #about h2 {
+    margin-top: 150px;
+  }
+  #about h3 {
+    font-size: 15px;
+    margin: 10px;
+    line-height: 25px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
   .wedocont.one::after {
     border-color: transparent transparent #fff;
@@ -111,6 +180,16 @@
     z-index: 1;
     transform: rotate(0deg);
   }
+
+  .singlePromotion {
+    margin: 10px 10px;
+    padding-bottom: 10px;
+  }
+
+  .singlePromotion img {
+    margin: auto auto 20px;
+  }
+
   #todo {
     overflow: hidden;
   }
@@ -119,7 +198,7 @@
     margin-left: 0;
   }
   .calltoActCont h2 {
-    font-size: 80px;
+    font-size: 30px;
   }
   .vidContent h2 {
     font-size: 80px;
@@ -158,18 +237,23 @@
   #instRow {
     padding: 0 25px;
   }
-  .footer {
-    padding: 80px 0;
-  }
-  .logo2.footerlo {
-    margin-bottom: 30px;
-  }
+
   .socialfooter {
     margin-top: 30px;
-    margin-left: 15px;
+    width: 80%;
+    margin: auto;
+    padding-left: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
   .copyPera {
-    margin-left: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  footer {
+    width: 80% !important;
+    margin: auto;
   }
   .contactSec {
     overflow: hidden;
@@ -177,6 +261,7 @@
   .subsForm input {
     width: 100%;
     margin-bottom: 10px;
+    text-align: center;
   }
   .subsNotice p,
   .consNotice p {

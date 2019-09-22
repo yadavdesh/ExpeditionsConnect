@@ -1,12 +1,3 @@
-/*
- Theme Name: Quick Travel
- Theme URL: http://nasfactor.com/themes/quicktravel/
- Author: NasirWd
- Author URI: www.nasfactor.com
- Description: QuickTravel Unbounce Landing page is best suitable for Travel Agency’s / Travel Agents offering special tourism packages to exotic locations
- Version: 1.0.0
- */
-
 //=======================================================
 // Banner
 //=======================================================
@@ -147,6 +138,7 @@
       $(".mainNav > ul").slideToggle("slow");
     });
   }
+
   //=======================================================
   // Menu Scroll
   //=======================================================
