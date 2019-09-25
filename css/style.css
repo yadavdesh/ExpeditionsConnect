@@ -213,8 +213,9 @@
 .calltoActCont h2 {
   color: #fff;
   font-family: "Merriweather", sans-serif;
-  font-size: 50px;
-  margin-bottom: 8px;
+  font-size: 30px;
+  margin-top: -40px;
+  margin-bottom: 40px;
   text-transform: capitalize;
   font-style: italic;
 }
@@ -540,6 +541,8 @@
   font-weight: 700;
   margin-bottom: 75px;
 }
+
+
 .rating {
   line-height: 0.8;
   margin-bottom: 25px;
@@ -808,6 +811,12 @@
   color: #000;
   margin: 2px;
   font-size: 15px;
+  
+}
+
+.sliding-item img{
+  border-color: rgb(11, 97, 44);
+  border-width: 5px;
 }
 
 .sliding expeditions h2 {
