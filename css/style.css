@@ -233,7 +233,7 @@
 }
 .subsForm {
   position: relative;
-  width: 370px;
+  width: 400px;
   margin: auto;
   margin-top: 20px;
   text-align: center;
@@ -252,6 +252,7 @@
   height: 50px;
   padding: 10px 170px 10px 30px;
   width: 100%;
+  display: inline;
 }
 .subsForm button {
   background: #7ab55c;
@@ -262,7 +263,7 @@
   text-align: center;
   text-transform: capitalize;
   top: 0;
-  width: 140px;
+  width: 180px;
   position: absolute;
   right: -1px;
   top: -1px;
@@ -281,6 +282,7 @@
 .subsForm .reqError {
   color: #db2429;
 }
+
 
 /**What we do **/
 .singleWedo {
