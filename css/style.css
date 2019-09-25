@@ -68,6 +68,7 @@
 }
 
 .mainNav ul {
+  margin-right: -80px;
 }
 .mainNav ul li {
   display: inline-block;
@@ -255,7 +256,7 @@
   display: inline;
 }
 .subsForm button {
-  background: #7ab55c;
+  background: #30a775;
   color: #fff;
   font-size: 16px;
   height: 40px;
