@@ -122,6 +122,16 @@
   text-transform: capitalize;
   font-style: italic;
 }
+
+.bannerCont h2 {
+  font-family: "Merriweather", serif;
+  color: #fff;
+  font-size: 30px;
+  margin-bottom: 30px;
+  text-transform: capitalize;
+  font-style: italic;
+}
+
 .bannerCont p {
   font-size: 25px;
   line-height: 0.8;
@@ -137,8 +147,9 @@
 /**Promotion**/
 .promotion {
   background: rgba(0, 0, 0, 0) url("../images/promotionbg.png") no-repeat scroll
-    0 -21px;
+    0 -55px;
 }
+
 .singlePromotion {
   padding-bottom: 50px;
 }
@@ -223,10 +234,10 @@
   position: relative;
   width: 370px;
   margin: auto;
-  margin-top: 50px;
+  margin-top: 20px;
   text-align: center;
   position: relative;
-  margin: 46px auto auto;
+  margin: 15px auto auto;
   opacity: 0.7;
 }
 .subsForm input {
@@ -818,10 +829,6 @@
   margin: auto;
 }
 
-.row banner-signup {
-  display: inline-block;
-}
-
 #expertsignup {
   margin-bottom: 30px;
   background-color: #808382;
@@ -853,14 +860,15 @@
 #expert-btn {
   border-radius: 12px;
   font-family: "Montserrat", sans-serif;
-  font-size: 16px;
-  background-color: #7ab55c;
+  font-size: 15px;
+
   color: #fff;
-  height: 48px;
   text-align: center;
   border-color: #7ab55c;
   padding: 15px;
   opacity: 0.7;
+
+  margin-right: -100px;
 }
 
 .commonTitle h3 {
@@ -869,15 +877,24 @@
   font-weight: 300px;
 }
 
-.expert-heading {
-  margin-left: 100px;
-}
-
 .commonTitle p {
   text-align: justify;
   margin-left: 30px;
 }
 
-.test {
+.expertcall {
+  margin-bottom: -10px;
+  margin-top: 40px;
+}
+
+.revolution {
+  font-weight: bolder;
+  color: #000;
+  margin-left: 30px;
+}
+
+.expert-list {
+  display: inline;
+  margin: 25px;
   font-weight: bold;
 }

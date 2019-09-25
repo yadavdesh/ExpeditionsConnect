@@ -1,7 +1,7 @@
 <?php
 $email = $_POST['sub_email'];
 
-$to = 'yadavdesh@gmail.com';
+$to = 'info@expeditionsconnect.com';
 $subject = 'Expeditions Connect Subscription';
 
 $message = 'Subscription Request Received From Expeditions Connect:<br/><br/>';

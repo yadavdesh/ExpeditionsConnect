@@ -7,7 +7,7 @@
 
         <!-- Include All CSS -->
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
-        <link rel="stylesheet" type="text/css" href="css/font-awesome-animation.min.css"/>
+        <!--<link rel="stylesheet" type="text/css" href="css/font-awesome-animation.min.css"/>-->
         <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"/>
         <link rel="stylesheet" type="text/css" href="css/animate.css"/>
         <link rel="stylesheet" type="text/css" href="css/pe-icon-7-stroke.css"/>
@@ -61,11 +61,11 @@
                             </div>
                             <ul>
                                 <li class="scroll"><a href="#about">about us</a></li>
-                                <li class="scroll"><a href="#explorer">explorers</a></li>
+                                <li class="scroll"><a href="#explorer">Experts</a></li>
                                 <li class="scroll"><a href="#todo">expeditions</a></li>
                                 <li class="scroll"><a href="#subscribe">education</a></li>
                                 <li class="scroll"><a href="#subscribe">events</a></li>
-
+                                <li class="scroll expi-btn"><a class="scroll btn btn-lg btn-success expert-btn" id="expert-btn" href="#expert-sec">Experts Signup</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -78,21 +78,21 @@
                     <div class="col-lg-12 text-center">
                         <div class="bannerCont slContent"> 
                         	<!-- <p>Expeditions Connect<p> -->
-                            <p class="test">Keep The Explorer Inside You Alive....</p>
-                            <h1>Connect. Learn. Explore. Inspire</h1>
-                            <!--<p>ExpeditionsConnect is The Social Platform That Changes the Way You explore the world</p>-->
-                            <p>Connect with professionals, Learn from experience & Explore together, Get inspired for next adventure. </p>
-                            <div class="row banner-signup">               
-                                    <!--<form action="php/subscription.php" method="post" class="subsForm expert-btn" id="subscriptionsforms">
-                                        <input type="email" placeholder="Enter email address" id="sub_email" name="sub_email">
-                                        <button id="sub_submit" name="submit" type="submit">Connect Now</button>
-                                        <div class="clearfix"></div>
-                                    </form> -->
-                                    <a class="scroll btn btn-lg btn-success expert-btn" id="expert-btn" href="#expert-sec">Signup as an expert</a>
-                                    <a class="scroll btn btn-lg btn-success expert-btn" id="expert-btn" href="#subscribe">Signup as an enthusiast</a>          
-                            </div>
+                            <h1>Looking For Your Next Adventure?</h1>
+                            <h2>Connect. Learn. Explore. Inspire</h2>
+                            <p class="test">Connect with experts around the world,
+                                Discover amazing experiences & Get inspired for next adventures
+                            </p>
                             
-                           
+                            <!--<p>ExpeditionsConnect is The Social Platform That Changes the Way You explore the world</p>
+                            <p>Connect with Experts, Learn from experience & Explore together, Get inspired for next adventure. </p>-->
+                            <div class="row banner-sub">               
+                                <form action="php/subscription.php" method="post" class="subsForm expert-btn" id="subscriptionsforms">
+                                    <input type="email" placeholder="Enter email address" id="sub_email" name="sub_email" required>
+                                    <button id="sub_submit" name="submit" type="submit">Connect Now</button>
+                                    <div class="clearfix"></div>
+                                </form>      
+                            </div>                           
                         </div>
                     </div>
                 </div>
@@ -103,11 +103,15 @@
                 <div class="row">
                     <div class="col-xs-12 text-center">
                         <div class="commonTitle">
-                            <h2>Join the Revolution</h2>
+                            <h2>Our Mission</h2>
                             <h3>We bring people with a passion for adventure, expedition, and life changing travel together</h3>
-                            <p>Connect with local guides and experienced professionals who can make your next trip unforgettable. No big tour operators or travel agents; just you, and the people you need to know.
-                               Follow the experts who share your passions and find new opportunities to learn.  Many of our experts host events and workshops, run courses and publish content that you won’t want to miss.
-                               Want more than just another expedition? Find internships, volunteering placements or work opportunities in amazing locations around the world.</p>
+                            <p>We are on the mission to connect you with inspiring explorers around the world and to motivate you for your future adventures.
+                                    Expedition Connect gives you an easy and effective way to connect with explorers around the world. For emerging explorers 
+                                    and expedition travel enthusiasts, it is a wonderful opportunity to closely follow and keep track of activities around 
+                                    your favourite expeditions and experts. Additionally, you can accompany these experts in one of their field trips or take 
+                                    advantage of products and services offered by these expert’s workshops, online tutorials or courses, events, volunteer 
+                                    programs, internships etc.
+                            </p>
                     </div>
                 </div>
             </div><!--continer-->
@@ -143,7 +147,7 @@
                                 <img src="images/widget/inspire.png"></img>
                                 <h2>Inspire</h2>
                                 <p> "To be inspired is great and To inspire is incredible" </br>
-                                    Get inspired with the great work and stories of explorers or inspire rest of the world by sharing your skills, expertise and experiences.
+                                    Get inspired by your fellow explorers around the world, and inspire others by sharing your stories, experiences and creative content.
                                 </p>
                             </div>
                         </div>
@@ -176,7 +180,7 @@
                             If you a professional explorer or an expedition expert, please sign-up here for free membership.
                     </p>
                     <form action="php/subscription.php" method="post" class="subsForm" id="subscriptionsforms">
-                        <input type="email" placeholder="Enter email address" id="sub_email" name="sub_email">
+                        <input type="email" placeholder="Enter email address" id="sub_email" name="sub_email" required>
                         <button id="sub_submit" name="submit" type="submit">Experts Signup</button>
                         <div class="clearfix"></div>
                     </form> 
@@ -309,7 +313,7 @@
                         <div class="calltoActCont">
                             <h2 class="testTitle">Subscribe to be part of adventure</h2>
                             <form action="php/subscription.php" method="post" class="subsForm" id="subscriptionsforms">
-                                <input type="email" placeholder="Enter email address" id="sub_email" name="sub_email">
+                                <input type="email" placeholder="Enter email address" id="sub_email" name="sub_email" required>
                                 <button id="sub_submit" name="submit" type="submit">Connect Now</button>
                                 <div class="clearfix"></div>
                             </form> 
@@ -335,9 +339,9 @@
                             <ul class="navigation">
                                 <li><a href="#">Home</a></li>
                                 <li><a href="#about">about us</a></li>
-                                <li><a href="#explorer">explorers</a></li>
+                                <li><a href="#explorer">experts</a></li>
                                 <li><a href="#todo">expeditions</a></li>
-                                <li><a href="#">educations</a></li>
+                                <li><a href="#">education</a></li>
                                 <li><a href="#">events</a></li>
                             </ul>
     
@@ -346,7 +350,7 @@
                     <div class="col-lg-3 col-sm-12 noPaddingLeft wow zoomIn" data-wow-duration="700ms" data-wow-delay="300ms">                                <div class="widget">
                         <div class="socialfooter">
                             <a href="https://www.facebook.com/expeditionsconnect/" class="fac"><i class="fa fa-facebook"></i></a>
-                            <a href="#" class="twi"><i class="fa fa-twitter"></i></a>
+                            <a href="https://twitter.com/ExpeditionsC" class="twi"><i class="fa fa-twitter"></i></a>
                             <a href="#" class="link"><i class="fa fa-linkedin"></i></a>
                             <a href="#" class="goo"><i class="fa fa-google-plus"></i></a>
                             <a href="#" class="insta"><i class="fa fa-instagram"></i></a>
@@ -356,6 +360,7 @@
                 </div>
             </div>
         </footer>
+        <!--
         <div class="subscriptionSuccess">
             <div class="subsNotice">
                 <i class="fa fa-thumbs-o-up closers"></i>
@@ -370,9 +375,10 @@
                 <p class="closers">Your Booking Request successfully sent!</p>
             </div>
         </div>
+        
+-->
 
-
-        <a href="#" id="backToTop"><i class="fa fa-angle-up"></i></a>
+        <a href="#" id="backToTop"><i class="fa fa-angle-up"></i></a> 
         <!-- Include All JS -->
         <script type="text/javascript" src="js/jquery.js"></script>
         <script type="text/javascript" src="js/bootstrap.min.js"></script>
