@@ -180,6 +180,14 @@
     z-index: 1;
     transform: rotate(0deg);
   }
+  .commonTitle h3 {
+    margin-top: 40px;
+    font-size: 17px;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 20px;
+    font-weight: 300px;
+    line-height: 1.7;
+  }
 
   .singlePromotion {
     margin: 10px 10px;
@@ -271,10 +279,12 @@
     width: 100%;
   }
   .subsForm {
-    width: 100%;
+    width: 90%;
+    margin: auto;
   }
   .subsForm input {
     padding: 15px 30px;
+    border-radius: 12px;
   }
   .subsForm button {
     position: relative;
