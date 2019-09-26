@@ -267,7 +267,8 @@
     overflow: hidden;
   }
   .subsForm input {
-    width: 100%;
+    width: 80%;
+    margin: auto;
     margin-bottom: 10px;
     text-align: center;
   }
@@ -288,5 +289,7 @@
   }
   .subsForm button {
     position: relative;
+    width: 70%;
+    margin: auto;
   }
 }
