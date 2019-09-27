@@ -843,7 +843,7 @@
   background-color: #808382;
   padding-bottom: 20px;
   padding-top: 3px;
-  width: 70%;
+  width: 50%;
   margin: auto;
   border-radius: 12px;
   background-color: #cadbd6;
@@ -886,6 +886,8 @@
   font-family: "Montserrat", sans-serif;
   margin-bottom: 30px;
   color: #5e5b5b;
+  line-height: 1.8;
+  font-weight: 400;
 }
 
 .commonTitle p {
