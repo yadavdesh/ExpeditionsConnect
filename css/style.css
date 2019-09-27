@@ -197,6 +197,15 @@
 .singlePromotion h2 {
   font-size: 20px;
 }
+
+.singlePromotion h2 {
+  font-size: 20px;
+}
+
+.singlePromotion p {
+  text-align: justify;
+}
+
 .singlePromotion:hover i {
   border-color: #191a19;
   color: #191a19;
