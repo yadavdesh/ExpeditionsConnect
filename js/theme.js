@@ -215,7 +215,7 @@
   //========================
   // Contact Submit
   //========================
-  /*
+
   if ($("#booking").length > 0) {
     $("#booking").on("submit", function(e) {
       e.preventDefault();
@@ -305,7 +305,7 @@
     if (!container.is(e.target) && container.has(e.target).length === 0) {
       $(".contactSuccess").fadeOut("slow");
     }
-  });*/
+  });
   //========================
   // Wow Js
   //========================
