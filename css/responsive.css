@@ -188,6 +188,10 @@
     font-weight: 300px;
     line-height: 1.7;
   }
+  .commonTitle p {
+    text-align: justify;
+    margin: 5px;
+  }
 
   .singlePromotion {
     margin: 10px 10px;
@@ -289,7 +293,39 @@
   }
   .subsForm button {
     position: relative;
+    width: 50%;
+    margin: auto;
+  }
+
+  #expertsignup {
+    width: 100%;
+  }
+  #expertsignup button {
     width: 70%;
     margin: auto;
+  }
+
+  .sliding-item .text-center {
+    font-weight: bold;
+    color: #000;
+    margin: 1px;
+    font-size: 11px;
+  }
+
+  .sliding-item img {
+    border-color: rgb(11, 97, 44);
+  }
+
+  .carousel-control {
+    padding-top: 10px;
+    width: 2%;
+    font-size: 40px !important;
+    margin-top: 1%;
+    background: transparent !important;
+  }
+
+  .col-xs-3 {
+    padding-right: 3px;
+    padding-left: 3px;
   }
 }

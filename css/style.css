@@ -284,7 +284,6 @@
   color: #db2429;
 }
 
-
 /**What we do **/
 .singleWedo {
   background: #fff;
@@ -544,7 +543,6 @@
   font-weight: 700;
   margin-bottom: 75px;
 }
-
 
 .rating {
   line-height: 0.8;
@@ -814,10 +812,9 @@
   color: #000;
   margin: 2px;
   font-size: 15px;
-  
 }
 
-.sliding-item img{
+.sliding-item img {
   border-color: rgb(11, 97, 44);
   border-width: 5px;
 }
@@ -887,8 +884,8 @@
   margin-top: 40px;
   font-size: 17px;
   font-family: "Montserrat", sans-serif;
-  margin-bottom: 20px;
-  font-weight: 300px;
+  margin-bottom: 30px;
+  color: #5e5b5b;
 }
 
 .commonTitle p {
@@ -905,11 +902,4 @@
   font-weight: bolder;
   color: #000;
   margin-left: 30px;
-
 }
-
-.expert-list {
-  display: inline;
-  margin: 5px;
-  font-weight: bold;
-  
