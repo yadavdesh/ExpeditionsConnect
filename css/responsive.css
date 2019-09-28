@@ -92,6 +92,13 @@
     line-height: 25px;
   }
 
+  .bannerCont h2 {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    line-height: 25px;
+  }
+
   .bannerCont p {
     line-height: 25px;
     font-size: 15px;
@@ -101,9 +108,10 @@
   h1,
   h2,
   h3 {
-    font-size: 20px;
+    font-size: 30px;
     margin-top: 0;
     margin-bottom: 0;
+    margin-bottom: 20px;
   }
 
   .logo .col-sm-3 {
@@ -147,10 +155,16 @@
     margin-top: 150px;
   }
   #about h3 {
-    font-size: 15px;
+    font-size: 16px;
     margin: 10px;
+    font-weight: bold;
+    padding-top: 20;
     line-height: 25px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: initial;
+  }
+  p {
+    font-size: 15px;
   }
   .wedocont.one::after {
     border-color: transparent transparent #fff;
@@ -182,11 +196,18 @@
   }
   .commonTitle h3 {
     margin-top: 40px;
-    font-size: 17px;
+    font-size: 13px;
     font-family: "Montserrat", sans-serif;
-    margin-bottom: 20px;
-    font-weight: 300px;
+    margin-bottom: 20px !important;
     line-height: 1.7;
+    text-align: justify;
+    width: 91%;
+    margin: auto;
+  }
+
+  .expeditions .expitext {
+    font-weight: bold;
+    margin-bottom: 20px;
   }
   .commonTitle p {
     text-align: justify;
@@ -210,7 +231,7 @@
     margin-left: 0;
   }
   .calltoActCont h2 {
-    font-size: 30px;
+    font-size: 20px;
   }
   .vidContent h2 {
     font-size: 80px;
@@ -290,6 +311,9 @@
   .subsForm input {
     padding: 15px 30px;
     border-radius: 12px;
+    width: 95%;
+    margin: auto;
+    margin-bottom: 10px;
   }
   .subsForm button {
     position: relative;
@@ -297,12 +321,28 @@
     margin: auto;
   }
 
+  .calltoActCont button {
+    width: 60%;
+    margin: auto;
+  }
+
   #expertsignup {
     width: 100%;
   }
-  #expertsignup button {
-    width: 70%;
+
+  #expertsignup input {
+    width: 95%;
     margin: auto;
+    margin-bottom: 10px;
+  }
+
+  #expertsignup button {
+    width: 68%;
+    margin: auto;
+  }
+
+  #expertsignup p {
+    margin-bottom: 20px;
   }
 
   .sliding-item .text-center {
@@ -324,8 +364,18 @@
     background: transparent !important;
   }
 
-  .col-xs-3 {
+  .col-xs-6 {
     padding-right: 3px;
     padding-left: 3px;
+  }
+
+  .carousel-control {
+    padding-top: 27%;
+    width: 5%;
+    font-size: 80px !important;
+    margin-top: 5%;
+    background: transparent !important;
+    margin-left: -15px;
+    margin-right: -13px;
   }
 }

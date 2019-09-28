@@ -816,6 +816,11 @@
   background-color: #cadbd6;
 }
 
+.expeditions .expitext {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
 .sliding-item .text-center {
   font-weight: bold;
   color: #000;
