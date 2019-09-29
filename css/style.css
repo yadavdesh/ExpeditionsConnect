@@ -142,6 +142,7 @@
   font-style: italic;
   margin-bottom: 20px;
   margin-top: 20px;
+  text-transform: initial;
 }
 .vegas-timer-progress {
   background: transparent;
