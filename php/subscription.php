@@ -12,7 +12,7 @@ $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 $headers .= 'From: <'.$email.'>' . "\r\n";
 
 mail($to,$subject,$message,$headers);
-echo "Thank you for subscribing our page";
+header('Location: nextpage.php');
 
 
 #if (isset ($_POST['submit']))
