@@ -292,12 +292,6 @@
   .contactSec {
     overflow: hidden;
   }
-  .subsForm input {
-    width: 80%;
-    margin: auto;
-    margin-bottom: 10px;
-    text-align: center;
-  }
   .subsNotice p,
   .consNotice p {
     font-family: "Merriweather", serif;
@@ -312,8 +306,9 @@
   .subsForm input {
     padding: 15px 30px;
     border-radius: 12px;
-    width: 83%;
+    width: 75% !important;
     margin: auto;
+    text-align: center;
     margin-bottom: 10px;
   }
   .subsForm button {
