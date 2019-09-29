@@ -201,9 +201,9 @@
     font-family: "Montserrat", sans-serif;
     margin-bottom: 20px !important;
     line-height: 1.7;
-    text-align: justify;
     width: 91%;
     margin: auto;
+    text-align: center !important;
   }
 
   .expeditions .expitext {
