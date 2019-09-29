@@ -1,5 +1,5 @@
 <?php
-$email = $_POST['sub_email'];
+$email = $_POST['sub_email' || 'sub_email1' || 'sub_email2'];
 
 $to = 'info@expeditionsconnect.com';
 $subject = 'Expeditions Connect Subscription';
