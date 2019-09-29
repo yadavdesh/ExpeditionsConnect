@@ -86,16 +86,16 @@
     color: #333;
   }
   .bannerCont h1 {
-    font-size: 25px;
+    font-size: 22px;
     margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     line-height: 25px;
   }
 
   .bannerCont h2 {
-    font-size: 20px;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 5px;
     line-height: 25px;
   }
 
@@ -103,6 +103,7 @@
     line-height: 25px;
     font-size: 15px;
     margin: 10px;
+    margin-bottom: 30px;
   }
 
   h1,
@@ -311,18 +312,13 @@
   .subsForm input {
     padding: 15px 30px;
     border-radius: 12px;
-    width: 95%;
+    width: 90%;
     margin: auto;
     margin-bottom: 10px;
   }
   .subsForm button {
     position: relative;
-    width: 50%;
-    margin: auto;
-  }
-
-  .calltoActCont button {
-    width: 60%;
+    width: 40%;
     margin: auto;
   }
 
@@ -334,11 +330,6 @@
     width: 95%;
     margin: auto;
     margin-bottom: 10px;
-  }
-
-  #expertsignup button {
-    width: 68%;
-    margin: auto;
   }
 
   #expertsignup p {
@@ -377,5 +368,11 @@
     background: transparent !important;
     margin-left: -15px;
     margin-right: -13px;
+  }
+
+  .tuned {
+    margin-top: 10px;
+    margin-bottom: 0 !important;
+    font-size: 12px !important;
   }
 }

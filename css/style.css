@@ -118,8 +118,8 @@
 .bannerCont h1 {
   font-family: "Merriweather", serif;
   color: #fff;
-  font-size: 40px;
-  margin-bottom: 30px;
+  font-size: 35px;
+  margin-bottom: 20px;
   text-transform: capitalize;
   font-style: italic;
 }
@@ -127,20 +127,21 @@
 .bannerCont h2 {
   font-family: "Merriweather", serif;
   color: #fff;
-  font-size: 30px;
-  margin-bottom: 30px;
+  font-size: 25px;
+  margin-bottom: 20px;
   text-transform: capitalize;
   font-style: italic;
 }
 
 .bannerCont p {
-  font-size: 25px;
+  font-size: 23px;
   line-height: 0.8;
   color: #fff;
   font-family: "Merriweather", serif;
   font-weight: 300;
   font-style: italic;
-  margin-bottom: 35px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 .vegas-timer-progress {
   background: transparent;
@@ -258,22 +259,23 @@
   border-radius: 12px;
   color: #333;
   font-family: "Montserrat", sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   height: 50px;
   padding: 10px 170px 10px 30px;
   width: 100%;
   display: inline;
 }
 .subsForm button {
-  background: #30a775;
-  color: #fff;
-  font-size: 16px;
+  background: #dcc312;
+  color: rgb(8, 8, 8);
+  font-size: 14px;
+  font-weight: bold;
   height: 40px;
   right: 0;
   text-align: center;
-  text-transform: capitalize;
+  text-transform: uppercase;
   top: 0;
-  width: 180px;
+  width: 140px;
   position: absolute;
   right: -1px;
   top: -1px;
@@ -287,7 +289,7 @@
   margin: 6px;
 }
 .subsForm button:hover {
-  background: #1a28e6;
+  background: #89b66b;
 }
 .subsForm .reqError {
   color: #db2429;
@@ -918,4 +920,10 @@
   font-weight: bolder;
   color: #000;
   margin-left: 30px;
+}
+
+.tuned {
+  margin-top: 50px !important;
+  margin-bottom: 0 !important;
+  font-size: 21px !important;
 }

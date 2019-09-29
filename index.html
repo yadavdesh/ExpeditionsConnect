@@ -15,6 +15,25 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width , initial-scale=1.0">
 
+
+        <!-- Facebook Pixel Code -->
+        <script>
+            !function(f,b,e,v,n,t,s)
+            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window, document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+            fbq('init', '331109087301692');
+            fbq('track', 'PageView');
+        </script>
+          <noscript><img height="1" width="1" style="display:none"
+          src="https://www.facebook.com/tr?id=331109087301692&ev=PageView&noscript=1"/>
+        </noscript>
+        <!-- End Facebook Pixel Code -->
+
         <!-- Include All CSS -->
         <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
         <link rel="stylesheet" type="text/css" href="css/font-awesome-animation.min.css"/>
@@ -38,24 +57,6 @@
         <!-- Favicon Icon -->
         <link rel="icon"  type="image/png" href="images/favicon.png">
         <!-- Favicon Icon -->
-
-        <!-- Facebook Pixel Code -->
-        <script>
-            !function(f,b,e,v,n,t,s)
-            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-            n.queue=[];t=b.createElement(e);t.async=!0;
-            t.src=v;s=b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t,s)}(window, document,'script',
-            'https://connect.facebook.net/en_US/fbevents.js');
-            fbq('init', '331109087301692');
-            fbq('track', 'PageView');
-        </script>
-        <noscript><img height="1" width="1" style="display:none"
-            src="https://www.facebook.com/tr?id=331109087301692&ev=PageView&noscript=1"
-        /></noscript>
-        <!-- End Facebook Pixel Code -->
     </head>
     <body>
         <div class="preloader">
@@ -106,21 +107,20 @@
                 <div class="row">
                     <div class="col-lg-12 text-center">
                         <div class="bannerCont slContent"> 
-                        	<!-- <p>Expeditions Connect<p> -->
-                                <h1>Looking For Your Next Adventure?</h1>
-                                <h2>Connect. Learn. Explore. Inspire</h2>
-                                <p class="test">Connect with experts around the world,
-                                    Discover amazing experiences & Get inspired for next adventures
-                                </p>
-                            <div class="row banner-signup">               
-                                    <form action="php/subscription.php" method="post" class="subsForm expert-btn" id="subscriptionsforms">
-                                        <input type="email" placeholder="Enter email address" id="sub_email" name="sub_email">
-                                        <button id="sub_submit" name="submit" type="submit">Request Early Access</button>
-                                        <div class="clearfix"></div>
-                                    </form>       
-                            </div>
+                            <h1>Looking For Your Next Adventure?</h1>
+                            <h2>Connect. Learn. Explore. Inspire</h2>
+                            <p class="test">Connect with experts around the world,
+                                Discover amazing experiences & Get inspired for next adventures
+                            </p>
                             
-                           
+                            <p class="tuned">Stay tuned, Something amazing is coming soon...</p>
+                            <div class="row banner-signup">        
+                                <form action="php/subscription.php" method="post" class="subsForm expert-btn" id="subscriptionsforms">
+                                    <input type="email" placeholder="Enter email address" id="sub_email" name="sub_email">
+                                    <button id="sub_submit" name="submit" type="submit">Notify Me</button>
+                                    <div class="clearfix"></div>
+                                </form>         
+                            </div>                          
                         </div>
                     </div>
                 </div>
@@ -216,7 +216,7 @@
                     </p>
                     <form action="php/subscription.php" method="post" class="subsForm" id="subscriptionsforms">
                         <input type="email" placeholder="Enter email address" id="sub_email" name="sub_email">
-                        <button id="sub_submit" name="submit" type="submit">Request Early Access</button>
+                        <button id="sub_submit" name="submit" type="submit">Notify Me</button>
                         <div class="clearfix"></div>
                     </form> 
                 </div>
@@ -354,7 +354,7 @@
                             <h2 class="testTitle">Get ready for your next adventure</h2>
                             <form action="php/subscription.php" method="post" class="subsForm" id="subscriptionsforms">
                                 <input type="email" placeholder="Enter email address" id="sub_email" name="sub_email">
-                                <button id="sub_submit" name="submit" type="submit">Request Early Access</button>
+                                <button id="sub_submit" name="submit" type="submit">Notify Me</button>
                                 <div class="clearfix"></div>
                             </form> 
                         </div>
