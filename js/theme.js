@@ -325,7 +325,7 @@
         $.ajax({
           type: "POST",
           url: "php/subscription.php",
-          data: { sub_email: sub_email },
+          data: { sub_email: sub_email1 },
           success: function(data) {
             $("#subscriptionsforms1 input").val("");
             $("#sub_submit1").html("Subscribed!");
@@ -368,7 +368,7 @@
         $.ajax({
           type: "POST",
           url: "php/subscription.php",
-          data: { sub_email: sub_email },
+          data: { sub_email: sub_email2 },
           success: function(data) {
             $("#subscriptionsforms2 input").val("");
             $("#sub_submit2").html("Subscribed!");
