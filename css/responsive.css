@@ -200,7 +200,7 @@
     font-size: 13px;
     font-family: "Montserrat", sans-serif;
     margin-bottom: 20px !important;
-    line-height: 1.7;
+    line-height: 1;
     width: 91%;
     margin: auto;
     text-align: center !important;
@@ -328,7 +328,8 @@
   }
 
   #expertsignup p {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
     font-size: 13px;
   }
 
