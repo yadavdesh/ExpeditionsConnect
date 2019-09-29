@@ -344,15 +344,15 @@
   $(".banner").vegas({
     transitionDuration: 900,
     slides: [
+      { src: "images/images/banner9.jpg" },
       { src: "images/images/banner6.jpg" },
       { src: "images/images/banner8.jpg" },
       { src: "images/images/banner10.jpg" },
       { src: "images/images/banner12.jpg" },
-      { src: "images/images/banner14.jpg" },
-      { src: "images/images/banner15.jpg" },
+      { src: "images/images/banner13.jpg" },
       { src: "images/images/banner16.jpg" },
       { src: "images/images/banner17.jpg" },
-      { src: "images/images/banner20.jpg" }
+      { src: "images/images/banner18.jpg" }
     ],
     transition: "fade"
   });
