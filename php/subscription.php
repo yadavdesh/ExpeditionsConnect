@@ -12,7 +12,7 @@ $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 $headers .= 'From: <'.$email.'>' . "\r\n";
 
 mail($to,$subject,$message,$headers);
-header('Location: nextpage.php');
+header('Location: www.expeditionsconnect.com');
 
 
 #if (isset ($_POST['submit']))
