@@ -87,7 +87,7 @@
   }
 
   .bannerCont {
-    margin-top: -60px;
+    margin-top: -50px;
   }
 
   .bannerCont h1 {
@@ -99,16 +99,16 @@
 
   .bannerCont h2 {
     font-size: 18px;
-    margin-top: 25px;
+    margin-top: 15px;
     margin-bottom: 5px;
-    line-height: 25px;
+    line-height: 1.5;
   }
 
   .bannerCont p {
-    line-height: 25px;
+    line-height: 1.5;
     font-size: 15px;
     margin: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
 
   h1,
@@ -373,7 +373,7 @@
   }
 
   .tuned {
-    margin-top: 10px;
+    margin-top: 10px !important;
     margin-bottom: 0 !important;
     font-size: 12px !important;
   }
