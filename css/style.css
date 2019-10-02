@@ -292,8 +292,17 @@
 .subsForm button:hover {
   background: #89b66b;
 }
+
 .subsForm .reqError {
   color: #db2429;
+}
+
+.btn-subscribe {
+  background: #dcc312;
+}
+
+.btn-subscribe:hover {
+  background: #89b66b;
 }
 
 /**What we do **/
