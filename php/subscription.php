@@ -12,8 +12,9 @@ $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 $headers .= 'From: <'.$email.'>' . "\r\n";
 
 mail($to,$subject,$message,$headers);
+header( "Location: https://expeditionsconnect.com/index.html#subscriptionSuccess" );
 
-echo "Thank you for subscribing our page" . " -" . "<a href='../index.html' style='text-decoration:none;color:#ff0099;'> Return Home</a>";
+#echo "Thank you for subscribing our page" . " -" . "<a href='../index.html' style='text-decoration:none;color:#ff0099;'> Return Home</a>";
 
 
 #if (isset ($_POST['submit']))
