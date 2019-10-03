@@ -95,7 +95,8 @@
                                 <li><a href="#how-it">how it works</a></li>
                                 <li><a href="#explorer">experts</a></li>
                                 <li><a href="#todo">Experiences</a></li>
-                                <li><a class="btn btn-subscribe btn-medium" href="#subs">Subscribe</a></li>
+                                <!--<li><a href="./blog.html">blog</a></li>-->
+                                <li><a class="btn btn-subscribe btn-medium start-btn">Subscribe</a></li>
                                 <!--<li class="scroll"><a href="#todo">expeditions</a></li>
                                 <li class="scroll"><a href="#subscribe">education</a></li>
                                 <li class="scroll"><a href="#subscribe">events</a></li>
@@ -118,14 +119,15 @@
                                 discover amazing experiences & get inspired for your next adventures
                             </p>
                             
-                            <p class="tuned">Stay tuned, something amazing is coming soon...</p>
-                            <div class="row banner-signup">        
+                            <!--<p class="tuned">Stay tuned, something amazing is coming soon...</p>-->
+                            <button class="btn btn-lg btn-banner start-btn" id="banner-submit" name="submit" type="submit">Get Started</button>
+                            <!--<div class="row banner-signup">        
                                 <form action="php/subscription.php" method="post" class="subsForm expert-btn" id="subscriptionsforms">
                                     <input type="email" placeholder="Enter email address" id="sub_email" name="sub_email" required>
                                     <button id="sub_submit" name="submit" type="submit">Notify Me</button>
                                     <div class="clearfix"></div>
                                 </form>     
-                            </div>
+                            </div>-->
                         </div>
                     </div>
                 </div>
@@ -207,10 +209,12 @@
                         </div>
                     </div>
                 </div>
+                
                 <div id="expertsignup">
                     <p class="text-center expert-text" id="expert-sec">
                         Join Our Community of Expedition Gurus. 
                     </p>
+                    <!--<button class="btn btn-lg btn-banner start-btn" id="banner-submit" name="submit" type="submit">Get Started</button>-->
                     <form action="php/subscription.php" method="post" class="subsForm" id="subscriptionsforms">
                         <input type="email" placeholder="Enter email address" id="sub_email" name="sub_email" required>
                         <button id="sub_submit" name="submit" type="submit">Notify Me</button>
@@ -347,9 +351,11 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-xs-12 text-center">
+                        
                         <div class="calltoActCont">
                             <h2 class="testTitle" id="subs">Get ready for your next adventure</h2>
-                            <form action="php/subscription.php" method="post" class="subsForm" id="subscriptionsforms">
+                            <!-- <button class="btn btn-lg btn-banner start-btn" id="banner-submit" name="submit" type="submit">Get Started</button>-->
+                           <form action="php/subscription.php" method="post" class="subsForm" id="subscriptionsforms">
                                 <input type="email" placeholder="Enter email address" id="sub_email" name="sub_email" required>
                                 <button id="sub_submit" name="submit" type="submit">Notify Me</button>
                                 <div class="clearfix"></div>
@@ -379,7 +385,8 @@
                                 <li><a href="#how-it">how it works</a></li>
                                 <li><a href="#explorer">Experts</a></li>
                                 <li><a href="#todo">Experiences</a></li>
-                                <li><a href="#subs">Subscribe</a></li>
+                                <li class="start-btn"><a href="#">Subscribe</a></li>
+                                <!--<li><a href="./blog.html" class="blog">blog</a></li>-->
                                 <!--<li><a href="#">education</a></li>
                                 <li><a href="#">events</a></li>-->
                             </ul>
@@ -405,26 +412,55 @@
             </div>
         </div>
 
-        <!--
+
+        <div class="subscriptionSuccess" id="subscriptionSuccess">
+            <div class="subsNotice">
+                <i class="fa fa-thumbs-o-up closers"></i>
+                <div class="clearfix"></div>
+                <p class="closers">Subscription Request Successfully placed!</p>
+            </div>
+        </div>
+
+        <div class="modal fade" id="thankyou">
+            <div class="modal-dialog">
+               <div class="modal-content">
+                    <div class="modal-header">
+                        <!--<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>-->
+                        <h4 class="modal-title">Sorry Expeditions Connect is not available in your country yet.</h4>
+                    </div>
+                    <div class="subscriptionSuccess" id="subscriptionSuccess">
+                        <div class="subsNotice">
+                            <i class="fa fa-thumbs-o-up closers"></i>
+                            <div class="clearfix"></div>
+                            <p class="closers">We will inform you once we launch in your country </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
         <div class="modal fade" id="overlay">
             <div class="modal-dialog">
               <div class="modal-content">
-                <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                  <h4 class="modal-title">Modal title</h4>
-                </div>
-                <div class="modal-body">
-                    <div class="row banner-signup">        
-                        <form action="php/subscription.php" method="post" class="subsForm expert-btn" id="subscriptionsforms">
-                            <input type="email" placeholder="Enter email address" id="sub_email" name="sub_email" required>
-                            <button id="sub_submit" name="submit" type="submit">Notify Me</button>
-                            <div class="clearfix"></div>
-                        </form>     
+                        <div class="modal-header">
+                            <!--<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>-->
+                            <h4 class="modal-title">Join Expeditions Connect</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row banner-signup">        
+                                <form action="php/subscription.php" method="post" class="modal-form" id="subscriptionsforms">
+                                    <input type="email" placeholder="Enter email address" id="sub_email" name="sub_email" required>
+                                    <button id="sub_submit" name="submit" type="submit">Get Started</button>
+                                        <div class="clearfix"></div>
+                                </form>   
+                                <p class="modal-p">By joining I agree to receive emails from Expeditions Connect.</p>  
+                            </div>
+                        </div> 
                     </div>
-                </div>
-              </div>
+                </div>               
             </div>
-          </div>-->
+        </div>
 
         <a href="#" id="backToTop"><i class="fa fa-angle-up"></i></a>
         <!-- Include All JS -->

@@ -356,7 +356,13 @@
     ],
     transition: "fade"
   });
+  $(".start-btn").on("click", function() {
+    $("#overlay").modal("show");
+  });
 
+  $(".sub_submit").on("click", function() {
+    $("#thankyou").modal("show");
+  });
   //$("#overlay").modal("show");
 
   //setTimeout(function() {

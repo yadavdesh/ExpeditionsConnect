@@ -113,34 +113,60 @@
   right: 0;
   text-align: center;
   z-index: 2;
-  margin-top: -30px;
+  margin-top: -60px;
 }
+
+.bannerCont h1,
+.bannerCont h2,
+.bannerCont p,
+.btn-banner {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
 .bannerCont h1 {
-  font-family: "Merriweather", serif;
+  /*font-family: "Merriweather", serif;*/
+
   color: #fff;
-  font-size: 35px;
-  margin-bottom: 20px;
+  font-size: 38px;
+  margin-bottom: 30px;
   text-transform: capitalize;
-  font-style: italic;
+  /*font-style: italic;*/
 }
 
 .bannerCont h2 {
-  font-family: "Merriweather", serif;
+  /*font-family: "Merriweather", serif;*/
   color: #fff;
-  font-size: 25px;
-  margin-bottom: 20px;
+  font-size: 28px;
+  margin-bottom: 30px;
   text-transform: capitalize;
-  font-style: italic;
+  /*font-style: italic;*/
+}
+
+.btn-banner {
+  font-size: 18px;
+  line-height: 16px;
+
+  color: rgb(8, 8, 8);
+  border: 1px solid transparent;
+  padding: 15px 35px;
+  margin: 0;
+  display: inline-block;
+  border-radius: 3px;
+  box-sizing: border-box;
+  -webkit-transition: color 0.2s, background-color 0.2s, box-shadow 0.2s,
+    border 0.2s;
+  transition: color 0.2s, background-color 0.2s, box-shadow 0.2s, border 0.2s;
+  text-transform: uppercase;
 }
 
 .bannerCont p {
-  font-size: 23px;
+  font-size: 25px;
   line-height: 0.8;
   color: #fff;
-  font-family: "Merriweather", serif;
+  /*font-family: "Merriweather", serif;*/
   font-weight: 300;
-  font-style: italic;
-  margin-bottom: 20px;
+  /*font-style: italic;*/
+  margin-bottom: 30px;
   margin-top: 20px;
   text-transform: initial;
 }
@@ -243,6 +269,50 @@
   font-style: italic;
   font-family: "Merriweather", serif;
 }
+
+.modal-form {
+  width: 80%;
+  margin: auto !important;
+  text-align: center;
+  opacity: 0.7;
+  align-items: center;
+}
+.modal-form input {
+  /*background: #fff none repeat scroll 0 0;*/
+
+  border: 1px solid #c5c6c9;
+  border-radius: 4px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  height: 50px;
+  padding: 10px 170px 10px 30px;
+  width: 100%;
+  display: block;
+}
+.modal-form button {
+  background: #dcc312;
+  color: rgb(8, 8, 8);
+  font-size: 14px;
+  font-weight: bold;
+  height: 50px;
+  right: 0;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 4px;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+  font-family: "Montserrat", sans-serif;
+}
+.modal-form button:hover {
+  background: #89b66b;
+}
+
 .subsForm {
   position: relative;
   width: 400px;
@@ -297,7 +367,8 @@
   color: #db2429;
 }
 
-.btn-subscribe {
+.btn-subscribe,
+.btn-banner {
   background: #dcc312;
 }
 
@@ -936,4 +1007,29 @@
   margin-top: 50px !important;
   margin-bottom: 0 !important;
   font-size: 21px !important;
+}
+
+/* Modal Signup*/
+
+.modal-title {
+  text-align: center;
+  font-size: 25px;
+}
+
+.modal-p {
+  font-size: 11px;
+  text-align: center;
+  margin-top: 20px;
+  text-transform: none;
+}
+
+.modal-header {
+  min-height: 16.42857143px;
+  padding: 15px;
+  border-bottom: none;
+}
+
+.modal-img {
+  height: 150px;
+  width: 150px;
 }
