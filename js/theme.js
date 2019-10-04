@@ -365,4 +365,8 @@
       $("#subscriptionSuccess").show();
     }
   });
+
+  setTimeout(function() {
+    $("#subscriptionSuccess").modal();
+  }, 2000);
 })(jQuery);
