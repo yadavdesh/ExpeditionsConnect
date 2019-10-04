@@ -140,6 +140,12 @@
     margin-bottom: 10px;
   }
 
+  .logo img {
+    width: 100px;
+    height: 100px;
+    margin: -10px;
+  }
+
   .logo2 img {
     margin-right: 35px;
     margin-left: 40px;
@@ -434,5 +440,10 @@
 
   .close {
     font-size: 20px;
+  }
+  /* navigation button*/
+
+  .btn-subscribe {
+    padding: 10px 20px;
   }
 }
