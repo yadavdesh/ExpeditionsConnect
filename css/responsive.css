@@ -35,13 +35,13 @@
 @media (min-width: 320px) and (max-width: 767px) {
   .mobileMenu {
     width: 35px;
-    height: 20px;
+    height: 13px;
     line-height: 0.2;
     position: absolute;
     right: 15px;
     top: -18px;
     cursor: pointer;
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .mobileMenu span {
