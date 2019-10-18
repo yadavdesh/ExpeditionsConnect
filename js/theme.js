@@ -345,6 +345,9 @@
     transitionDuration: 900,
     slides: [
       { src: "images/images/banner9.jpg" },
+      { src: "images/images/banner1.jpg" },
+      { src: "images/images/banner3.jpg" },
+      { src: "images/images/banner4.jpg" },
       { src: "images/images/banner6.jpg" },
       { src: "images/images/banner8.jpg" },
       { src: "images/images/banner10.jpg" },
