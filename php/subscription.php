@@ -16,6 +16,7 @@ $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 $headers .= 'From: <'.$email.'>' . "\r\n";
 
 mail($to,$subject,$message,$headers);
+header( "Location: https://expeditionsconnect.com/index.html#subscriptionSuccess" );
 mail($to_user,$sub_reply,$message);
 header( "Location: https://expeditionsconnect.com/index.html#subscriptionSuccess" );
 
