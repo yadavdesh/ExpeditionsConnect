@@ -2,6 +2,7 @@
 $email = $_POST['sub_email'];
 
 $to = 'info@expeditionsconnect.com';
+$to_user = $email
 $subject = 'Expeditions Connect Subscription';
 $sub_reply = 'Thank you for subscribing Expeditions Connect'
 
@@ -15,6 +16,7 @@ $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 $headers .= 'From: <'.$email.'>' . "\r\n";
 
 mail($to,$subject,$message,$headers);
+mail($to_user,$sub_reply,$message);
 header( "Location: https://expeditionsconnect.com/index.html#subscriptionSuccess" );
 
 #echo "Thank you for subscribing our page" . " -" . "<a href='../index.html' style='text-decoration:none;color:#ff0099;'> Return Home</a>";
