@@ -14,7 +14,7 @@ header( "Location: https://expeditionsconnect.com/index.html#subscriptionSuccess
 
 #autoemail to customer
 
-   $autoemail = new PHPMailer(); 
+   $autoemail = new mail(); 
    $autoemail->From = "info@expeditionsconnect.com"; 
    $autoemail->FromName = "expeditionsconnect.com"; 
    $autoemail->AddAddress($mail->From, $mail->FromName); 
