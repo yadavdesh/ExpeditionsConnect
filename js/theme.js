@@ -365,7 +365,7 @@
 
   $(window).load(function() {
     if (window.location.hash == "#subscriptionSuccess") {
-      $("#subscriptionSuccess").show();
+      $("#subscriptionSuccess").show(5000);
     }
   });
 })(jQuery);
