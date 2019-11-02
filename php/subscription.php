@@ -14,7 +14,6 @@ header( "Location: https://expeditionsconnect.com/index.html#subscriptionSuccess
 
 #autoemail to customer
 
-if ($mail->send()){ 
    $autoemail = new PHPMailer(); 
    $autoemail->From = "info@expeditionsconnect.com"; 
    $autoemail->FromName = "expeditionsconnect.com"; 
@@ -22,6 +21,6 @@ if ($mail->send()){
    $autoemail->Subject = "Thank you for Expeditions Connect signup"; 
    $autoemail->Body = "Thank you for signup. We will contact you once we launch:";
    $autoemail->Send(); 
-   }  
+   
   
 ?>
