@@ -363,9 +363,13 @@
     $("#overlay").modal("show");
   });
 
-  $(window).load(function() {
-    if (window.location.hash == "#subscriptionSuccess") {
-      $("#subscriptionSuccess").show(5000);
-    }
+  $("#sub_submit").on("click", function() {
+    $("#subscriptionSuccess").modal("show");
   });
+
+  //$(window).load(function() {
+  //if (window.location.hash == "#subscriptionSuccess") {
+  //$("#subscriptionSuccess").show();
+  // }
+  //});
 })(jQuery);
