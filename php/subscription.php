@@ -12,19 +12,16 @@ $headers .= 'From: <'.$email.'>' . "\r\n";
 mail($to,$subject,$message,$headers);
 header( "Location: https://expeditionsconnect.com/index.html#subscriptionSuccess" );
 
-#echo "Thank you for subscribing our page" . " -" . "<a href='../index.html' style='text-decoration:none;color:#ff0099;'> Return Home</a>";
+#autoemail to customer
 
-
-#if (isset ($_POST['submit']))
-#{
- #   if (mail($to,$subject,$message,$headers))
-  #  {
-   #     echo "Thank you for subscribing our page"; 
-   # }
-  #  else
-  #  {
-  #      echo "Failed to subscribe";
-   # }
-    
-
-#}
+if ($mail->send()){ 
+   $autoemail = new PHPMailer(); 
+   $autoemail->From = "info@expeditionsconnect.com"; 
+   $autoemail->FromName = "expeditionsconnect.com"; 
+   $autoemail->AddAddress($mail->From, $mail->FromName); 
+   $autoemail->Subject = "Thank you for Expeditions Connect signup"; 
+   $autoemail->Body = "Thank you for signup. We will contact you once we launch:";
+   $autoemail->Send(); 
+   }  
+  
+?>
