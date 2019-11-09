@@ -367,9 +367,9 @@
     $("#subscriptionSuccess").modal("show");
   });
 
-  //$(window).load(function() {
-  //if (window.location.hash == "#subscriptionSuccess") {
-  //$("#subscriptionSuccess").show();
-  // }
-  //});
+  $(window).load(function() {
+    if (window.location.hash == "#subscriptionSuccess") {
+      $("#subscriptionSuccess").show();
+    }
+  });
 })(jQuery);
