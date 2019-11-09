@@ -363,6 +363,10 @@
     $("#overlay").modal("show");
   });
 
+  $("#sub_submit").on("click", function() {
+    $("#subscriptionSuccess").modal("show");
+  });
+
   $(window).load(function() {
     if (window.location.hash == "#subscriptionSuccess") {
       $("#subscriptionSuccess").show();
