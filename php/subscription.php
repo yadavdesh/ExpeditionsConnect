@@ -10,17 +10,8 @@ $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 $headers .= 'From: <'.$email.'>' . "\r\n";
 
 mail($to,$subject,$message,$headers);
-header( "Location: https://expeditionsconnect.com/index.html#subscriptionSuccess");
-
-#autoemail to customer
-
-   $autoemail = new mail(); 
-   $autoemail->From = "info@expeditionsconnect.com"; 
-   $autoemail->FromName = "expeditionsconnect.com"; 
-   $autoemail->AddAddress($mail->From, $mail->FromName); 
-   $autoemail->Subject = "Thank you for Expeditions Connect signup"; 
-   $autoemail->Body = "Thank you for signup. We will contact you once we launch:";
-   $autoemail->Send(); 
+#header( "Location: https://expeditionsconnect.com/index.html#subscriptionSuccess");
+echo "<script>$('#subscriptionSuccess').modal('show')</script>";
    
   
 ?>
