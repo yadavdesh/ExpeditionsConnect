@@ -1,5 +1,6 @@
 <?php
 $email = $_POST['sub_email'];
+
 $to = 'info@expeditionsconnect.com';
 $subject = 'Expeditions Connect Subscription';
 $message = 'Subscription Request Received From Expeditions Connect:<br/><br/>';
@@ -10,3 +11,4 @@ $headers .= 'From: <'.$email.'>' . "\r\n";
 
 mail($to,$subject,$message,$headers);
 header( "Location: https://expeditionsconnect.com/index.html#subscriptionSuccess" );
+header("refresh:5;url=http://www.expeditionsconnect.com")
