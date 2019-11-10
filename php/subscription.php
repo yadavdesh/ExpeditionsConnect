@@ -13,9 +13,9 @@ $headers1 = "MIME-Version: 1.0" . "\r\n";
 $headers1 .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 $headers1 .= 'From: <'.$to.'>' . "\r\n";
 $subject1 = 'Thank you for Subscribing Expeditions Connect';
-$replymsg = 'Hello'.$email.'<br/><br/>';
-$replymsg .= 'Thank you for subscribing \"Expeditions Connect\". We will inform you once we launch in your area. <br/><br/>';
-$replymsg  .= 'Best Regards.<br/>';
+$replymsg = 'Hello '.$email.'<br/><br/>';
+$replymsg .= 'Thank you for subscribing Expeditions Connect. We will inform you once we launch in your area. <br/><br/>';
+$replymsg  .= 'Best Regards<br/>';
 $replymsg  .= 'Expeditions Connect';
 
 
