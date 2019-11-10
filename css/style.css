@@ -53,6 +53,7 @@
   width: 120px;
   height: 120px;
   margin: -10px;
+  margin-left: -100px !important;
 }
 .header.fixedHeader .logo2 {
   display: block !important;
@@ -61,7 +62,7 @@
   width: 140px;
   height: 140px;
   margin-top: -20px;
-  margin-left: 120px;
+  margin-left: 40px;
 }
 .header.fixedHeader .mainNav ul li a {
   color: #000;
@@ -94,6 +95,7 @@
 }
 .banner {
   position: relative;
+  height: 80%;
 }
 .banner:before {
   width: 100%;
@@ -243,6 +245,7 @@
   /*    background: url(../images/caltoactionbg.jpg)no-repeat scroll center center/cover;*/
   padding: 110px 0 75px 0;
 }
+
 .calltoActCont {
 }
 .calltoActCont p {

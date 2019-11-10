@@ -343,6 +343,7 @@
   //========================
   $(".banner").vegas({
     transitionDuration: 900,
+
     slides: [
       { src: "images/images/banner9.jpg" },
       { src: "images/images/banner1.jpg" },
