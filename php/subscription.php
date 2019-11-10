@@ -11,3 +11,7 @@ $headers .= 'From: <'.$email.'>' . "\r\n";
 
 mail($to,$subject,$message,$headers);
 header( "Location: https://expeditionsconnect.com#subscriptionSuccess" );
+
+
+$replymsg = "Thank you for subscribing \"Expeditions Connect\". We will inform you once we launch in your area. ";
+mail($email, $subject, $replymsg, $headers);
