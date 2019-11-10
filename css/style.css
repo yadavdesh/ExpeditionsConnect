@@ -182,7 +182,7 @@
 }
 
 .singlePromotion {
-  padding-bottom: 50px;
+  padding: 23px;
 }
 .singlePromotion i {
   border: 1px solid #e7e7e7;
@@ -1049,4 +1049,8 @@
 
 .close {
   font-size: 40px;
+}
+
+.about-p {
+  text-align: inherit !important;
 }
