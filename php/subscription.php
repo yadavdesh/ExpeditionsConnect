@@ -12,14 +12,15 @@ $headers .= 'From: <'.$email.'>' . "\r\n";
 $headers1 = "MIME-Version: 1.0" . "\r\n";
 $headers1 .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 $headers1 .= 'From: <'.$to.'>' . "\r\n";
-$replymsg = 'Hello <'.$email.'>' . "\r\n";
-$replymsg .= "\r\n";
-$replymsg .= "\r\n";
-$replymsg .= "Thank you for subscribing \"Expeditions Connect\". We will inform you once we launch in your area." . "\r\n";
-$replymsg .= "\r\n";
-$replymsg .= "\r\n";
-$replymsg .= "Best Regards"."\r\n";
-$replymsg .= "Expeditions Connect";
+$subject1 = 'Thank you for Subscribing <strong>Expeditions Connect</strong>';
+$replymsg = '<strong>Hello </strong>'.$email.'<br/><br/>';
+$replymsg .= '<br/><br/>';
+$replymsg .= '<br/><br/>';
+$replymsg .= 'Thank you for subscribing \"Expeditions Connect\". We will inform you once we launch in your area. <br/><br/>';
+$replymsg .= '<br/><br/>';
+$replymsg .= '<br/><br/>';
+$replymsg .= 'Best Regards.<br/><br/>';
+$replymsg .= 'Expeditions Connect';
 
 
 mail($to,$subject,$message,$headers);
@@ -27,4 +28,4 @@ header( "Location: https://expeditionsconnect.com#subscriptionSuccess" );
 
 
 $replymsg = "Thank you for subscribing \"Expeditions Connect\". We will inform you once we launch in your area. ";
-mail($email, $subject, $replymsg, $headers1);
+mail($email, $subject1, $replymsg, $headers1);
