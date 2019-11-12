@@ -178,7 +178,7 @@
 /**Promotion**/
 .promotion {
   background: rgba(0, 0, 0, 0) url("../images/promotionbg.png") no-repeat scroll
-    0 -55px;
+    0 -75px;
 }
 
 .singlePromotion {
@@ -1002,7 +1002,6 @@
 
 .commonTitle p {
   text-align: justify;
-  margin-left: 30px;
 }
 
 .expertcall {
@@ -1051,6 +1050,11 @@
   font-size: 40px;
 }
 
-.about-p {
-  text-align: inherit !important;
+.how-work {
+  width: 100% !important;
+}
+
+.about-us {
+  width: 95% !important;
+  margin: auto;
 }
