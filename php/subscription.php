@@ -23,7 +23,8 @@ $replymsg = '
         <title>Welcome to Expeditions Connect</title> 
     </head> 
     <body> 
-        <div style="width: 80%; margin: auto;">
+    <div style="width: 80%; margin: auto; background-color:rgb(198, 210, 243); text-align: center;">
+        <img src="./images/logo/logo.png">
         <h1 style="color: #3a63c2">Welcome to Expeditions Connect</h1>
         <h3>Thanks you for joining with us!</h3> 
         <p>We have not launched yet in your country. 
@@ -42,7 +43,7 @@ $replymsg = '
         <div>
             <h4 style="color: #3a63c2">Best Regards,</h4>
             <h5 style="color: #3a63c2"> Expeditions Connect</h5>
-            <h5 style="color: #3a63c2">www.expeditionsconnect.com></h5>
+            <h5 style="color: #3a63c2">www.expeditionsconnect.com</h5>
         </div>
     </div>
     </body> 
