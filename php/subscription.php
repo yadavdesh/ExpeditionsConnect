@@ -23,31 +23,31 @@ $replymsg = '
         <title>Welcome to Expeditions Connect</title> 
     </head> 
     <body> 
-    <div style="width: 80%; margin: auto; padding-top: 30px; padding-bottom: 30px; background-color:rgb(198, 210, 243); text-align: center;">
-        <img src="http://expeditionsconnect/images/logo/logo.png" alt="logo" />
-        <h1 style="color: #3a63c2">Welcome to Expeditions Connect</h1>
-        <h3>Thanks you for joining with us!</h3> 
-        <p>We have not launched yet in your country. 
-        We will update your once we will be available in your area.
-        </p> 
-        <p> 
-        Please follow us on our social media platform to be update about new news from us.
-        </p>
-        <div class="socialfooter">
-            <a href="https://www.facebook.com/expeditionsconnect/" class="fac"><i class="fa fa-facebook"></i></a>
-            <a href="https://twitter.com/ExpeditionsC" class="twi"><i class="fa fa-twitter"></i></a>
-            <a href="https://www.instagram.com/expeditionsconnects/" class="insta"><i class="fa fa-instagram"></i></a>
+        <div style="width: 80%; margin: auto; padding-top: 30px; padding-bottom: 30px; background-color:rgb(198, 210, 243); text-align: center;">
+            <img src="http://expeditionsconnect/images/logo/logo.png" alt="logo" style = "widht: 30px; height:30px"  />
+            <h1 style="color: #3a63c2">Welcome to Expeditions Connect</h1>
+            <h3>Thanks you for joining with us!</h3> 
+            <p>We have not launched yet in your country. 
+                We will update your once we will be available in your area.
+            </p> 
+            <p> 
+                Please follow us on our social media platform to be update about new news from us.
+            </p>
+            <div class="socialfooter">
+                <a href="https://www.facebook.com/expeditionsconnect/" class="fac"><i class="fa fa-facebook"></i></a>
+                <a href="https://twitter.com/ExpeditionsC" class="twi"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.instagram.com/expeditionsconnects/" class="insta"><i class="fa fa-instagram"></i></a>
+            </div>
+            </br>
+            </br>
+            <div>
+                <h4 style="color: #3a63c2">Best Regards,</h4>
+                <h5 style="color: #3a63c2"> Expeditions Connect</h5>
+                <h5 style="color: #3a63c2">www.expeditionsconnect.com</h5>
+            </div>
         </div>
-        </br>
-        </br>
-        <div>
-            <h4 style="color: #3a63c2">Best Regards,</h4>
-            <h5 style="color: #3a63c2"> Expeditions Connect</h5>
-            <h5 style="color: #3a63c2">www.expeditionsconnect.com</h5>
-        </div>
-    </div>
     </body> 
-    </html>'; 
+</html>'; 
 
 
 
