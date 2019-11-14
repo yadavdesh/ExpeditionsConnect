@@ -24,7 +24,7 @@ $replymsg = '
     </head> 
     <body> 
         <div style="width: 80%; margin: auto; padding-top: 30px; padding-bottom: 30px; background-color:rgb(198, 210, 243); text-align: center;">
-            <img src="http://expeditionsconnect/images/logo/logo.png" alt="logo" style = "widht: 30px; height:30px"  />
+            <img src="http://expeditionsconnect/images/logo/logo.png" alt="logo" style = "widht: 30px; height:30px" />
             <h1 style="color: #3a63c2">Welcome to Expeditions Connect</h1>
             <h3>Thanks you for joining with us!</h3> 
             <p>We have not launched yet in your country. 
