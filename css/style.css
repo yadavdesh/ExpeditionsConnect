@@ -1051,10 +1051,15 @@
 }
 
 .how-work {
-  width: 100% !important;
+  width: 90% !important;
 }
 
 .about-us {
-  width: 95% !important;
+  width: 90% !important;
+  margin: auto;
+}
+
+#expert {
+  width: 90%;
   margin: auto;
 }
