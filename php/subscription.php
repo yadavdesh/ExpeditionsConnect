@@ -17,7 +17,7 @@ $subject1 = 'Thank you for Subscribing Expeditions Connect';
 #$replymsg .= 'Thank you for subscribing Expeditions Connect. We will inform you once we launch in your area. <br/><br/>';
 #$replymsg  .= 'Best Regards<br/>';
 #$replymsg  .= 'Expeditions Connect';
-$replymsg = 'email.html'; 
+$replymsg =  file_get_contents('email.html');
 
 
 
