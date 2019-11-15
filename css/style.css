@@ -176,11 +176,6 @@
 .vegas-timer-progress {
   background: transparent;
 }
-/**Promotion**/
-.promotion {
-  background: rgba(0, 0, 0, 0) url("../images/promotionbg.png") no-repeat scroll
-    0 -75px;
-}
 
 .singlePromotion {
   padding: 23px;
