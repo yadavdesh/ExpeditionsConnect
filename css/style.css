@@ -178,7 +178,7 @@
 }
 
 .singlePromotion {
-  padding: 23px;
+  padding: 0;
 }
 .singlePromotion i {
   border: 1px solid #e7e7e7;
@@ -929,7 +929,7 @@
 }
 
 .explorer {
-  padding: 40px;
+  padding: 20px;
 }
 .explorer .btn {
   margin-top: -100px;
@@ -1047,6 +1047,7 @@
 
 .how-work {
   width: 90% !important;
+  margin: auto;
 }
 
 .about-us {

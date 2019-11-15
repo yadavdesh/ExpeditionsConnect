@@ -228,7 +228,6 @@
   }
 
   .singlePromotion {
-    margin: 10px 10px;
     padding-bottom: 10px;
   }
 
@@ -446,5 +445,10 @@
 
   .btn-subscribe {
     padding: 10px 20px;
+  }
+
+  .how-work {
+    width: 100% !important;
+    margin: auto;
   }
 }
