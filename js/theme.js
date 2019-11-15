@@ -360,6 +360,7 @@
     ],
     transition: "fade"
   });
+
   $(".start-btn").on("click", function() {
     $("#overlay").modal("show");
   });

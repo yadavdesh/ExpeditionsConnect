@@ -1063,3 +1063,7 @@
   width: 90%;
   margin: auto;
 }
+
+.vegas-container {
+  height: 82vh !important;
+}
