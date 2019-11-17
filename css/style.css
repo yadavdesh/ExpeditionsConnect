@@ -990,13 +990,14 @@
   font-size: 17px;
   font-family: "Montserrat", sans-serif;
   margin-bottom: 30px;
-  color: #5e5b5b;
+  color: #000;
   line-height: 1;
   font-weight: 400;
 }
 
 .commonTitle p {
   text-align: justify;
+  color: #000;
 }
 
 .experience {
@@ -1055,6 +1056,7 @@
 .how-work {
   width: 90% !important;
   margin: auto;
+  color: #000 !important;
 }
 
 .about-us {
@@ -1078,4 +1080,8 @@
 .expi-experience {
   margin-bottom: 40px !important;
   color: #000;
+}
+
+.about-p {
+  color: #000 !important;
 }
