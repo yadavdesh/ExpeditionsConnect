@@ -207,9 +207,9 @@
   height: 100%;
   line-height: 0.8;
   margin: auto auto 70px;
-  padding: 43px 0;
-  width: 150px;
-  height: 250px;
+  padding-top: 43px;
+  width: 100px;
+  height: 150px;
   -webkit-transition: all 500ms ease;
   -moz-transition: all 500ms ease;
   -ms-transition: all 500ms ease;
