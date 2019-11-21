@@ -151,7 +151,7 @@
 
   color: rgb(8, 8, 8);
   border: 1px solid transparent;
-  padding: 13px 30px;
+  padding: 10px;
   margin: 0;
   display: inline-block;
   border-radius: 3px;
@@ -222,10 +222,7 @@
 }
 .singlePromotion h2 {
   font-size: 20px;
-}
-
-.singlePromotion h2 {
-  font-size: 20px;
+  color: #000;
 }
 
 .singlePromotion p {
@@ -372,7 +369,7 @@
 }
 
 .btn-subscribe {
-  padding: 10px 20px;
+  padding: 10px;
 }
 
 .btn-subscribe:hover {
@@ -904,7 +901,7 @@
   padding-top: 50px;
   padding-bottom: 40px;
   width: 100% !important;
-  background-color: #cadbd6;
+  background-color: #eef0f2;
 }
 
 .expeditions .expitext {
@@ -959,7 +956,7 @@
 }
 
 #how {
-  background-color: #cadbd6;
+  background-color: #eef0f2;
 }
 
 .well {
@@ -992,7 +989,7 @@
   margin-bottom: 30px;
   color: #000;
   line-height: 1;
-  font-weight: 400;
+  font-weight: 800;
 }
 
 .commonTitle p {
@@ -1084,4 +1081,14 @@
 
 .about-p {
   color: #000 !important;
+}
+
+.how-connect,
+.how-learn {
+  padding-right: 10px;
+}
+
+.how-learn,
+.how-experience {
+  padding-left: 10px;
 }
