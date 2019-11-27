@@ -451,4 +451,12 @@
     width: 100% !important;
     margin: auto;
   }
+
+  .modal-dialog{
+    width: 90% !important;
+    margin: auto !important;
+    margin-top: 70px !important;
+    
+}
+  }
 }
