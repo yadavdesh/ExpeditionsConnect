@@ -765,8 +765,9 @@
   z-index: 9999;
   background-color: rgb(24, 24, 24);
   /*background: url(../images/man.jpg) no-repeat scroll center center/cover;
-  display: none;
+  
   /*border: 1px solid #000;*/
+  display: none;
   margin-top: 20px;
   border-radius: 5px;
 }
@@ -1084,7 +1085,8 @@
   color: #fff;
 }
 
-.how-work {
+.how-work,
+#learning {
   width: 90% !important;
   margin: auto;
   color: #000 !important;
@@ -1140,4 +1142,16 @@
 .how,
 .todo {
   background-color: #eef0f2;
+}
+
+.learn-sec span {
+  font-weight: bold;
+}
+
+.learn-sec {
+  margin: 15px 15px;
+}
+
+.learn-sec1 {
+  text-align: center !important;
 }
