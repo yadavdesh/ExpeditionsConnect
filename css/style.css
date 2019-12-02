@@ -167,7 +167,7 @@
   line-height: 0.8;
   color: #fff;
   /*font-family: "Merriweather", serif;*/
-  font-weight: 300;
+  font-weight: 400 !important;
   /*font-style: italic;*/
   margin-bottom: 30px;
   margin-top: 20px;
