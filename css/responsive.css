@@ -306,10 +306,12 @@
   .subsNotice p,
   .consNotice p {
     font-family: "Merriweather", serif;
-    font-size: 24px;
-    padding: 0 20px;
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 15px;
     width: 100%;
   }
+
   .subsForm {
     width: 90%;
     margin: auto;
@@ -400,10 +402,21 @@
     border-radius: 2px;
   }
 
-  .subsNotice,
-  .consNotice {
-    width: 100%;
-    height: 200px;
+  .subscriptionSuccess,
+  .contactSuccess {
+    width: 70%;
+    height: 50%;
+    position: fixed;
+    left: 15%;
+    top: 25%;
+    z-index: 9999;
+    background-color: rgb(24, 24, 24);
+    display: none;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+
+  .subsNotice {
     background: none;
     position: absolute;
     left: 0px;
@@ -411,30 +424,36 @@
     top: 0px;
     bottom: 0px;
     margin: auto;
+    /*
     border-radius: 5px 5px 0 0;
+    */
     text-align: center;
   }
-  .subsNotice i,
-  .consNotice i {
-    border-radius: 20%;
-    background-color: rgb(240, 240, 11);
-    color: #000;
-    font-size: 40px;
 
-    text-align: center;
-    height: 40px;
-    width: 45px;
-    /*padding: 10px 0;*/
+  .subsNotice i {
+    border-radius: 20%;
+    font-size: 30px;
+    text-align: center !important;
+    height: 20px;
+    width: 40px;
+    color: #0b6fb1;
+    padding: 5px 0;
+    margin-bottom: 10px;
   }
-  .subsNotice p,
-  .consNotice p {
-    color: #000;
-    font-family: "Merriweather", serif;
-    font-size: 12px;
+
+  .thanks {
     margin-top: 20px;
-    text-transform: initial;
-    line-height: 20px;
-    display: inline-block;
+    text-align: center !important;
+  }
+  .thanks i {
+    font-size: 20px;
+  }
+
+  .thankyou {
+    font-size: 15px;
+    margin-top: 10px;
+    text-transform: capitalize;
+    color: #fff;
     font-weight: bold;
   }
 
@@ -453,12 +472,39 @@
   }
 
   .modal-dialog {
-    width: 90% !important;
+    width: 80% !important;
     margin: auto !important;
     margin-top: 70px !important;
   }
+
+  .modal-title {
+    font-size: 18px;
+  }
+
+  .modal-title-2 {
+    font-size: 14px;
+    line-height: 20pt;
+  }
+
+  .modal-form input {
+    padding: 10px;
+    text-align: center;
+  }
+
   .widget {
     width: 70%;
     margin: auto;
+  }
+
+  .singlePromotion p {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .how-learn,
+  .how-experience,
+  .how-connect {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
 }
