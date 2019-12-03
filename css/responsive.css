@@ -209,12 +209,13 @@
   }
   .commonTitle h3 {
     margin-top: 40px;
-    font-size: 13px;
+    font-size: 14px;
     font-family: "Montserrat", sans-serif;
     margin-bottom: 20px !important;
-    line-height: 1;
+    line-height: 25pt;
     width: 100%;
     margin: auto;
+    font-weight: bold;
     text-align: center !important;
   }
 
@@ -506,5 +507,9 @@
   .how-connect {
     padding-left: 0 !important;
     padding-right: 0 !important;
+  }
+
+  .learn-sec {
+    margin: 10px 10px !important;
   }
 }
