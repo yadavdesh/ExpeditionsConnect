@@ -168,9 +168,9 @@
     margin-top: 20px;
   }
   #about h3 {
-    font-size: 15px;
+    font-size: 14px;
 
-    font-weight: bolder;
+    font-weight: bold;
     padding-top: 20;
     line-height: 25px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -213,7 +213,7 @@
     font-family: "Montserrat", sans-serif;
     margin-bottom: 20px !important;
     line-height: 1;
-    width: 91%;
+    width: 100%;
     margin: auto;
     text-align: center !important;
   }
