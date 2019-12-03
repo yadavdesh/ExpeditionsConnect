@@ -297,7 +297,7 @@
   }
 
   footer {
-    width: 80% !important;
+    width: 100% !important;
     margin: auto;
   }
   .contactSec {
@@ -456,5 +456,9 @@
     width: 90% !important;
     margin: auto !important;
     margin-top: 70px !important;
+  }
+  .widget {
+    width: 70%;
+    margin: auto;
   }
 }
