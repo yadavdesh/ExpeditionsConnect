@@ -61,6 +61,32 @@
         <!-- Favicon Icon -->
     </head>
     <body>
+
+        <!-- Load Facebook SDK for JavaScript -->
+        <div id="fb-root"></div>
+            <script>
+                window.fbAsyncInit = function() {
+                FB.init({
+                xfbml            : true,
+                version          : 'v5.0'
+                });
+            };
+
+            (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));</script>
+
+            <!-- Your customer chat code -->
+            <div class="fb-customerchat"
+            attribution=install_email
+            page_id="103677334358455"
+            theme_color="#ffc300">
+        </div>
+
         <div class="preloader">
             <div class="preloaderInner">
                 <span></span>
@@ -434,24 +460,33 @@
         </section>
           
        <!--
-        <section class="calltoACtion" id="subscribe" data-parallax="scroll" data-image-src="images/test/test.jpg">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-xs-12 text-center">                        
-                        <div class="calltoActCont">
-                            <h2 class="testTitle" id="subs">Get ready for your next adventure</h2>
-  
-                           <form action="php/subscription.php" method="post" class="subsForm" id="subscriptionsforms">
-                                <input type="email" placeholder="Enter email address" id="sub_email" name="sub_email" required>
-                                <button id="sub_submit" name="submit" type="submit">Subscribe</button>
-                                <div class="clearfix"></div>
-                            </form> 
-                        </div>
-                    </div>
-                </div>
+        <section class="contactus" id="contactus">
+            
+            <div class="container">
+                            <form action="/action_page.php">
+                              <label for="fname">First Name</label>
+                              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                          
+                              <label for="lname">Last Name</label>
+                              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                          
+                              <label for="country">Country</label>
+                              <select id="country" name="country">
+                                <option value="australia">Australia</option>
+                                <option value="canada">Canada</option>
+                                <option value="usa">USA</option>
+                              </select>
+                          
+                              <label for="subject">Subject</label>
+                              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                          
+                              <input type="submit" value="Submit">
+                            </form>
+                          </div>
+                
             </div>
         </section>
-    --> 
+ -->
         <footer class="footer">
             <div class="container-fluid">
                 <div class="row">
